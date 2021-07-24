@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Handlee&display=swap');
 
+body { /*i dont even know if it does anything*/
+    margin: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+}
+
 .container-fluid {
     background: #c4bcec;
     padding-bottom:5px;
@@ -84,7 +90,7 @@
 }
 
 #myNameHeader {
-    margin-top: 130px;
+    margin-top: 50px;
     margin-left: 790px;
     color: white;
     font-family: "Dancing Script", serif;
@@ -96,4 +102,26 @@
     margin-top: -5px;
     margin-left: 900px;
     font-family: "Handlee" , serif;
+}
+
+#secondaryNavbar {
+    margin-top:39px;
+    width:13.35%;
+    position:fixed;
+}
+
+#currStatus {
+    color:white;
+}
+
+#currStatus:active {
+    color:#d9b7e4;
+}
+
+#qualities {
+    color:white;
+}
+
+#qualities:active {
+    color:#d9b7e4;
 }
