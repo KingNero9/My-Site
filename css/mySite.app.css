@@ -89,8 +89,8 @@ body { /*i dont even know if it does anything*/
 
 #myNameHeader {
     text-align: center;
-    margin-top: 0.3vw;
-    margin-bottom: 0vw;
+    margin-top: .5vw !important;
+    /* margin-bottom: 0vw; */
     color: white;
     font-family: "Dancing Script", serif;
     font-size: 8vh;
