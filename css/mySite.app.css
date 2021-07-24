@@ -71,11 +71,9 @@ body { /*i dont even know if it does anything*/
 }
 
 #disabledNav {
-    font-family: "Handlee" , serif;
     font-size: 18px;
-    font-weight: 500;
     color: rgb(142, 129, 153);
-    margin-top: 17px;
+    margin-top: 15px;
 }
 
 #searchBtn {
@@ -90,8 +88,9 @@ body { /*i dont even know if it does anything*/
 }
 
 #myNameHeader {
-    margin-top: 50px;
-    margin-left: 790px;
+    margin-top: 7vw;
+    margin-left: 40vw;
+    margin-bottom: 0px;
     color: white;
     font-family: "Dancing Script", serif;
     font-size: 80px;
@@ -99,14 +98,14 @@ body { /*i dont even know if it does anything*/
 
 #secondaryHeader {
     color:white;
-    margin-top: -5px;
-    margin-left: 900px;
+    margin-top: 0.1vw;
+    margin-left: 46vw;
     font-family: "Handlee" , serif;
 }
 
 #secondaryNavbar {
-    margin-top:39px;
-    width:13.35%;
+    margin-top:2.1vw;
+    width:13.35vw;
     position:fixed;
 }
 
