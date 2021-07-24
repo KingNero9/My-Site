@@ -88,39 +88,50 @@ body { /*i dont even know if it does anything*/
 }
 
 #myNameHeader {
-    margin-top: 7vw;
-    margin-left: 40vw;
-    margin-bottom: 0px;
+    text-align: center;
+    margin-top: 0.3vw;
+    margin-bottom: 0vw;
     color: white;
     font-family: "Dancing Script", serif;
-    font-size: 80px;
+    font-size: 8vh;
+    margin-bottom: 0px
 }
 
 #secondaryHeader {
+    text-align: center;
     color:white;
-    margin-top: 0.1vw;
-    margin-left: 46vw;
+    margin-top: 0vw;
     font-family: "Handlee" , serif;
 }
 
 #secondaryNavbar {
-    margin-top:2.1vw;
-    width:13.35vw;
+    margin-top:2.1vw !important;
+    width:10%vw !important;
     position:fixed;
 }
 
-#currStatus {
+#currStatus-tab {
     color:white;
 }
 
-#currStatus:active {
+#currStatus-tab:active {
+    color:#d9b7e4;
+}
+
+#qualities-tab {
+    color:white;
+}
+
+#qualities-tab:active {
     color:#d9b7e4;
 }
 
 #qualities {
-    color:white;
+    margin-top: 100px;
+    margin-left: 20px;
 }
 
-#qualities:active {
-    color:#d9b7e4;
+#currstatus{
+    margin-top: 100px;
+    margin-left: 50px;
 }
