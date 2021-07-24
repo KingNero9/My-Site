@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Handlee&display=swap');
+
+.container-fluid {
+    background: #c4bcec;
+    padding-bottom:5px;
+    padding-top: 22px;
+    position: fixed;
+}
+
+#searchPlace {
+    margin-top: 5px;
+}
+
+.navbar-brand {
+    margin-top:14px;
+}
+
+#navbarSupportedContent {
+    margin-top:5px;
+}
+
+#myname:hover{
+    color:rgb(78, 47, 97)
+}
+
+#aboutme {
+    font-family: "Handlee" , serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    margin-top: 17px;
+}
+
+#aboutme:hover{
+    color:rgb(114, 92, 128)
+}
+
+#contactme {
+    font-family: "Handlee" , serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    margin-top: 17px;
+}
+
+#contactme:hover{
+    color:rgb(114, 92, 128)
+}
+
+#myprojects {
+    font-family: "Handlee" , serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    margin-top: 17px;
+}
+
+#myprojects:hover{
+    color:rgb(114, 92, 128)
+}
+
+.itemDrop:hover {
+    background: #dfd0f5;
+}
+
+#disabledNav {
+    font-family: "Handlee" , serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(142, 129, 153);
+    margin-top: 17px;
+}
+
+#searchBtn {
+    background:#b6a5ec;
+    margin-top:5px;
+}
+
+#searchBtn:hover {
+    background:#d0bcef;
+    margin-top:5px;
+    border-color:#a699d3;
+}
+
+#myNameHeader {
+    margin-top: 130px;
+    margin-left: 790px;
+    color: white;
+    font-family: "Dancing Script", serif;
+    font-size: 80px;
+}
+
+#secondaryHeader {
+    color:white;
+    margin-top: -5px;
+    margin-left: 900px;
+    font-family: "Handlee" , serif;
+}
