@@ -1,3 +1,6 @@
+
+// ------------Type writing function --------- //
+
 var TxtType = function(el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
@@ -55,3 +58,4 @@ window.onload = function() {
     document.body.appendChild(css);
 };
 
+//--------------------------------------------------------------------------------//

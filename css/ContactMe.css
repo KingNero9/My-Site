@@ -4,7 +4,6 @@
 
 body {
     background: #d4d4d4;
- 
 }
 
 .container-fluid {
@@ -94,6 +93,13 @@ body {
     width: 100%;
 }
 
+#flower {
+    float: right; /*position in the left side of page*/
+    position: absolute;
+    margin-top: 5vh;
+    margin-left: 65vw;
+}
+
 #contactmeText {
     margin-top: 2vw;
     /* margin-left: 40vw; */
@@ -158,7 +164,6 @@ body {
     float: left; /*position in the left side of page*/
     margin-left:43.5vh;
     position: absolute; /*so it wont disturb any other elemnt*/
-    
 }
 
 #messageText {
@@ -170,9 +175,6 @@ body {
     margin-left: 4rem;
     margin-top: 4rem;
     position: fixed;
-    
-    
-    
 }
 
 #mymail {

@@ -1,7 +1,7 @@
 <!DOCTYPE html><!--default bootstrap-->
 <html><!--default bootstrap-->
     <head><!--default bootstrap-->
-      
+        <link rel="icon" sizes="16x16" href="pictures/website-favicon.png" type="image/x-icon">
         <meta charset="UTF8"><!--default bootstrap-->
         <title>Contact Me | Software Engineer</title><!--default bootstrap-->
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><!--default bootstrap-->
@@ -88,16 +88,22 @@
             </div>
         </aside>
 
+        <div class="imgs">
+            <img id="flower" src="pictures/pink-flowers.png">
+       </div>
           <div class="container"> <!--will create a centered container with a max width of a 1000px-->
                 <h1 id="contactmeText">Contact me</h1>
                 <div class="col col-md-6">
-                    <form>
+                    <form action="https://formsubmit.co/talishush@gmail.com" method="POST">
+                        <input type="text" name="_honey" style="display:none">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next" value="thank-you-page.html">
                         <div><!--will group a few forms together as one group-->
                             <lable class="formLable" for="emailInput">Email Address</lable>
                            <div class="imgs">
                                 <img id="imgContact" src="pictures/mail-icon.gif">
                            </div>
-                            <input class="form-control" type="email" id="emailInput" aria-describedat="emailHelp" placeholder="Email" />
+                            <input class="form-control" type="email" name="email" required id="emailInput" aria-describedat="emailHelp" placeholder="Email" />
                             <small id="emailHelp" class="form-text text-muted"> Insert your email Here</small>
                         </div>
                         <div>
@@ -105,12 +111,12 @@
                             <div class="imgs">
                                 <img id="imgName" src="pictures/name-icon.gif">
                            </div>
-                            <input class="form-control" id="nameInput" placeholder="Name"/>
+                            <input class="form-control" id="nameInput" type="text" name="name" placeholder="Name"/>
                         </div>
 
                         <br/>
 
-                        <lable class="formLable" for="selectInput">
+                        <lable class="formLable" for="selectInput" name="_subject">
                             Subject
                         </lable>
                         <select class="form-control">
