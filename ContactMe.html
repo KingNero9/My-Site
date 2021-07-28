@@ -53,6 +53,41 @@
             </div>
           </nav>
 
+          <aside id="contact-b" class="py-3 bg-main">
+            <div class="container">
+                <div class="contact-info">
+                    <i class="fas fa envelope fa-2x">
+                    </i>
+                    <div class="aside-img">
+                        <img id="imgMail" src="pictures/mail-icon2.png">
+                    </div>
+                    <h3>Email</h3>
+                    <p>
+                        <a id="mymail" href="mailto:talishush@gmail.com">talishush@gmail.com</a>
+                    </p> 
+                </div>
+                <div>
+                    <i class="fab fa-linkedin fa-2x">
+                    </i>
+                    <div class="aside-img">
+                        <img id="imgLinkedin" src="pictures/linkedin-icon.png">
+                    </div>
+                    <h3>Linkedin</h3>
+                    <a id="mylinkedin" href="https://www.linkedin.com/in/tali-shushan-a743891ba/" target="_blank" rel="noopener noreferrer">To My LinkedIn
+                        Profile</a>
+                </div>
+                <div class="phoneAll">
+                    <i class="fab fa-phone fa-2x">
+                    </i>
+                    <div class="aside-img">
+                        <img id="imgPhone" src="pictures/phone-icon1.png">
+                    </div>
+                    <h3>Phone</h3>
+                    <a id="myphone" href="tel:0533216636">972 53 3216636</a>
+                </div>
+            </div>
+        </aside>
+
           <div class="container"> <!--will create a centered container with a max width of a 1000px-->
                 <h1 id="contactmeText">Contact me</h1>
                 <div class="col col-md-6">
@@ -75,12 +110,8 @@
 
                         <br/>
 
-                        <lable class="formLable" for="messageText">Message</lable>
-                        <textarea class="form-control" placeholder="Message" id="messageText" rows="6"></textarea>
-                    
-                        <br/>
                         <lable class="formLable" for="selectInput">
-                            Type Of Message
+                            Subject
                         </lable>
                         <select class="form-control">
                             <option>Job offer</option>
@@ -89,6 +120,13 @@
                             <option>Just send hello!</option>
                             <option>Anything else</option>
                         </select>
+
+                        <lable class="formLable" for="messageText">Message</lable>
+                        <textarea class="form-control" placeholder="Message" id="messageText" rows="6"></textarea>
+                    
+                        
+                        
+                        
                         <div class="form-check">
                             <lable class="form-check-lable">
                                 <input class="form-check-input" type="checkbox" />
@@ -100,7 +138,7 @@
                 </div>
             </div>
             
-             
+            
           </div>
           
     <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>

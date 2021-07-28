@@ -100,8 +100,6 @@ body {
     font-family: "Dancing Script", serif;
     font-size: 90px;
     text-align: center;
-    
-    
 }
 
 .form-control {
@@ -167,6 +165,71 @@ body {
 #messageText {
     overflow:scroll;
     overflow-x: hidden;
+}
+
+#contact-b {
+    margin-left: 4rem;
+    margin-top: 4rem;
+    position: fixed;
+    
+    
+    
+}
+
+#mymail {
+    text-decoration: none;
+    color:#bf627f; 
+}
+
+#mymail:hover {
+    text-decoration: none;
+    color:#e091a5;
+}
+
+#mylinkedin {
+    text-decoration: none;
+    color:#bf627f; 
+}
+
+#mylinkedin:hover {
+    text-decoration: none;
+    color:#e091a5;
+}
+
+#myphone {
+    text-decoration: none;
+    color:#bf627f; 
+}
+
+#myphone:hover {
+    text-decoration: none;
+    color:#e091a5;
+}
+
+#imgMail {
+    position: absolute;
+    float: left;
+    margin-left:-2vw;
+    margin-top: 0.2vh;
+}
+
+#imgLinkedin {
+    position: absolute;
+    float: left;
+    margin-left:-2vw;
+    margin-top: 0.2vh;
+}
+
+#imgPhone {
+    position: absolute;
+    float: left;
+    margin-left:-1.8vw;
+    margin-top: 0.5vh;
+    height: 8%;
+}
+
+.phoneAll {
+    margin-top:1rem;
 }
 
 footer {
