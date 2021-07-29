@@ -66,7 +66,7 @@ body {
 }
 
 .itemDrop:hover {
-    background: #dfd0f5;
+    background: #F3D7CA;
 }
 
 #disabledNav {
@@ -86,6 +86,12 @@ body {
     border-color:#C86B85;
 }
 
+#imgGithub {
+    margin-top: 2.8rem;
+    margin-right: 0.8rem;
+    float: right;
+}
+
 .container {
     margin-left: 0px;
     padding-bottom:10px;
@@ -96,15 +102,20 @@ body {
 #flower {
     float: right; /*position in the left side of page*/
     position: absolute;
-    margin-top: 5vh;
-    margin-left: 65vw;
+    /* margin-top: 10vh;
+    margin-left: 50vw; */
+    display: block;
+    top: 11%;
+    left: 52%;
 }
+
+
 
 #contactmeText {
     margin-top: 2vw;
     font-family: "Dancing Script", serif;
     font-size: 90px;
-    text-align: center;
+    margin-left: 24vw;
 }
 
 .form-control {
@@ -125,13 +136,12 @@ body {
 .form-check-lable {
     margin-left: 47vh;
     padding-top:5px;
+    display: inline-block;
 }
 
 .form-check-input {
-    margin-left: 44.5vh !important;
-    margin-top: -2vh !important;
     border-radius: 1px;
-
+    display:inline-block;
 }
 
 .success {
@@ -140,6 +150,7 @@ body {
     color: black;
     margin-left: 44.5vh !important;
     margin-top: 2vh;
+    padding: 1vh;
 }
 
 .success:hover {
@@ -168,12 +179,15 @@ body {
 #messageText {
     overflow:scroll;
     overflow-x: hidden;
+    position:relative;
+    opacity: 0.8;
 }
 
 #contact-b {
-    margin-left: 4rem;
-    margin-top: 4rem;
+    margin-left: 4vw;
+    margin-top: 9vh;
     position: fixed;
+    margin-right: 5vw;
 }
 
 #mymail {
@@ -209,32 +223,42 @@ body {
 #imgMail {
     position: absolute;
     float: left;
-    margin-left:-2vw;
+    margin-left:-2.5vw;
     margin-top: 0.2vh;
 }
 
 #imgLinkedin {
     position: absolute;
     float: left;
-    margin-left:-2vw;
+    margin-left:-2.5vw;
     margin-top: 0.2vh;
 }
 
 #imgPhone {
     position: absolute;
     float: left;
-    margin-left:-1.8vw;
+    margin-left:-2.2vw;
     margin-top: 0.5vh;
     height: 8%;
 }
 
 .phoneAll {
-    margin-top:1rem;
+    margin-top:1.5vh;
+}
+
+#TOS{
+    text-decoration: none;
+    color:#bf627f; 
+}
+
+#TOS:hover {
+    text-decoration: none;
+    color:#e091a5;
 }
 
 footer {
     text-align: center;
-    margin-top: 10vw;
+    top:70%;
     padding-right: 1vw;
     color: black;
 }

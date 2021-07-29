@@ -102,7 +102,6 @@ body { /*i dont even know if it does anything*/
 #myNameHeader {
     text-align: center;
     margin-top: 35vh !important;
-    /* margin-bottom: 0vw; */
     margin-left: -2vw;
     color: white;
     font-family: "Dancing Script", serif;
@@ -125,43 +124,6 @@ h3 {
 
 h3 > a {
     text-decoration: none;
-}
-
-#secondaryNavbar {
-    margin-top:2.1vw !important;
-    width:10%vw !important;
-    position:fixed;
-}
-
-#currStatus-tab {
-    color:white;
-}
-
-#currStatus-tab:active {
-    color:#d9b7e4;
-}
-
-#qualities-tab {
-    color:white;
-}
-
-#qualities-tab:active {
-    color:#d9b7e4;
-}
-
-#qualities {
-    margin-top: 100px;
-    margin-left: 20px;
-}
-
-#currstatus{
-    margin-top: 100px;
-    margin-left: 50px;
-}
-
-#statuses {
-    margin-top: 100px;
-    margin-left: 50px;
 }
 
 footer {
