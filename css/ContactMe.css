@@ -102,8 +102,6 @@ body {
 #flower {
     float: right; /*position in the left side of page*/
     position: absolute;
-    /* margin-top: 10vh;
-    margin-left: 50vw; */
     display: block;
     top: 11%;
     left: 52%;
