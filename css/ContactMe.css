@@ -146,7 +146,7 @@ body {
     background:#e77995;
     margin-top:5px;
     color: black;
-    margin-left: 44.5vh !important;
+    margin-left: 47vh !important;
     margin-top: 2vh;
     padding: 1vh;
 }
@@ -244,15 +244,6 @@ body {
     margin-top:1.5vh;
 }
 
-#TOS{
-    text-decoration: none;
-    color:#bf627f; 
-}
-
-#TOS:hover {
-    text-decoration: none;
-    color:#e091a5;
-}
 
 footer {
     text-align: center;
