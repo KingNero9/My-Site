@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Handlee&display=swap');
+
+
+body {
+    background: #d4d4d4;
+}
+
+.container-fluid {
+    background: #E6A4B4;
+    padding-bottom:5px;
+    padding-top: 22px;
+    position: fixed;
+}
+
+#searchPlace {
+    margin-top: 5px;
+}
+
+.navbar-brand {
+    margin-top:14px;
+}
+
+#navbarSupportedContent {
+    margin-top:5px;
+}
+
+#myname:hover{
+    color:rgb(78, 47, 97)
+}
+
+#aboutme {
+    font-family: "Handlee" , serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    margin-top: 17px;
+}
+
+#aboutme:hover{
+    color:rgb(114, 92, 128);
+}
+
+#contactme {
+    font-family: "Handlee" , serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    margin-top: 17px;
+}
+
+#contactme:hover{
+    color:rgb(114, 92, 128)
+}
+
+#myprojects {
+    font-family: "Handlee" , serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    margin-top: 17px;
+}
+
+#myprojects:hover{
+    color:rgb(114, 92, 128)
+}
+
+.itemDrop:hover {
+    background: #F3D7CA;
+}
+
+#disabledNav {
+    font-size: 18px;
+    color: rgb(142, 129, 153);
+    margin-top: 15px;
+}
+
+#searchBtn {
+    background:#e77995;
+    margin-top:5px;
+}
+
+#searchBtn:hover {
+    background:rgb(238, 143, 176);
+    margin-top:5px;
+    border-color:#C86B85;
+}
+
+#imgGithub {
+    margin-top: 2.8rem;
+    margin-right: 0.8rem;
+    float: right;
+}
+
+#imgLinkedin {
+    margin-top: 2.8rem;
+    margin-right: 0.8rem;
+    float: right;
+}
+
+#main-header {
+    text-align: center;
+    font-family: "Dancing Script", serif;
+    font-size: 20vh;
+    color:#ec8ca4;
+    margin-top: 20vh !important;
+    margin-bottom: 0px;
+}
+
+#secondary-header{
+    text-align: center;
+    margin-top: 1vh;
+    font-family: "Handlee" , serif;
+}
+
+#line1 {
+    color:#C86B85;
+    height: 0.5vh;
+    margin-left: 42.5vw;
+    width: 15vw;
+    align-items: center;
+}
+
+.share-online {
+    text-align:center;
+    margin-top: 15vh;
+    
+}
+
+#share-header{
+    font-family: "Dancing Script", serif;
+}
+
+.share-online > a {
+    text-decoration: none;
+}
+
+#pink-flower {
+    float: left; /*position in the left side of page*/
+    position: absolute;
+    display: block;
+    top: 20%;
+    left: 5%;
+    width: 20%;
+    
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 5vh;
+    color: black;
+}

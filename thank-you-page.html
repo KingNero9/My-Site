@@ -1,6 +1,7 @@
 <!DOCTYPE html><!--default bootstrap-->
 <html><!--default bootstrap-->
     <head><!--default bootstrap-->
+      <link rel="icon" sizes="16x16" href="pictures/favicon/favicon-16x16.png" type="image/x-icon">
         <meta charset="UTF8"><!--default bootstrap-->
         <title>Thank you page | Tali Shushan</title><!--default bootstrap-->
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><!--default bootstrap-->
@@ -8,7 +9,7 @@
         <!--bootstrap css-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="css/bootstrap.min.css"/>
-        <link rel="stylesheet" href="css/ContactMe.css"/>
+        <link rel="stylesheet" href="css/ThankYou.css"/>
     
     </head>
     <body><!--default bootstrap-->
@@ -51,11 +52,51 @@
               </div>
             </div>
           </nav>
+
+          <a href="https://www.linkedin.com/in/tali-shushan-a743891ba/" target="_blank">
+            <img id="imgLinkedin" src="pictures/linkedin-icon-whitef.png" onclick="this.src='pictures/linkedin-icon-pink.png'">
+            <style>
+              #imgLinkedin:hover {
+                background: url("pictures/linkedin-icon-pink.png") ;
+              }
+            </style>
+         </a>
+         <a href="https://github.com/KingNero9" target="_blank">
+          <img id="imgGithub" src="pictures/github-logo-whitef.png" onclick="this.src='pictures/github-logo-pink.png'">
+          <style>
+            #imgGithub:hover {
+              background: url("pictures/github-logo-pink.png") ;
+            }
+          </style>
+        </a>
+
           <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
-          <script src="js/ContactMe.js"></script>
+          <script src="js/ThankYou.js"></script>
           <script src="js/bootstrap.min.js"></script>
 
-          <h1>Thank you!</h1>
+          <aside>
+            <img id="pink-flower" src="pictures/pink-flowers-small-2.png">
+          </aside>
+          <h1 id="main-header">Thank you!</h1>
+          <h3 id="secondary-header">You'll recieve an answer to your email withnin the next 24 hours.</h3>
+          <hr id="line1"> 
+          <div class="share-online">
+            <h3 id="share-header">Share with your friends!</h3>
+            <a href="https://twitter.com/">
+              <img src="pictures/twitter-icon-thankyou.png">
+            </a>&nbsp
+            <a href="https://www.facebook.com/">
+              <img src="pictures/messenger-icon-thankyou.png">
+            </a>&nbsp
+            <a href="https://www.messenger.com/">
+              <img src="pictures/facebook-icon-thankyou.png">
+            </a>&nbsp
+            <a href="https://www.linkedin.com/">
+              <img src="pictures/linkedin-icon-thankyou.png">
+            </a>
+            
+          </div>
+          
           </body>
           <footer>
               Copyright © 2021. All Rights Reserved
