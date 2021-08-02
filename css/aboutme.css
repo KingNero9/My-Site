@@ -132,6 +132,7 @@ body {
     width: 16%;
     box-shadow: 0px 0px 15px #97727b;
 }
+
 .AboutMe-text{
     margin-left: 1vw;
 }
@@ -161,9 +162,8 @@ body {
 }
 
 #not-to-brag {
-    margin-left: 22vw;
-    margin-top: 2vh;
-    margin-bottom: -4.7vh;
+    margin-left: 3vw;
+    padding-bottom: 0;
     font-family: "Dancing Script" , serif;
     font-size: 30px;
     color: #bf627f;
@@ -175,8 +175,8 @@ ul {
 }
 
 #my-qualities {
-    margin-left: 22vw;
-    margin-top: 1.7vh;
+    margin-left: 3vw;
+    margin-top: -10vh;
     border-color: #e4a4b4;
     border-style:solid;
     border-radius: 5px;
@@ -195,12 +195,12 @@ ul {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 12vh;
+    margin-top: 5vh;
 }
 
 .courses-knowladge{
     float: right;
-    margin-right: 6vw;
+    margin-right: 12vw;
     margin-top: 3rem;
 }
 
@@ -222,7 +222,6 @@ ul {
     padding-top: 2vh;
     padding-right:1vw;
     margin-top: -1vh;
-    width: 60%;
     text-align: center;
 }
 
@@ -230,6 +229,7 @@ ul {
     font-family: "Dancing Script" , serif;
     font-size: 30px;
     color: #bf627f;
+    margin-left: 6vw;
 }
 
 #study-courses {
@@ -243,7 +243,20 @@ ul {
     background-color: rgb(238, 235, 235);
     padding-top: 2vh;
     padding-right: 1vw;
-    margin-top: -1vh;
+    margin-top: -6vh;
+    margin-left: 3vw;
+}
+
+.lower-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top:3vh;
+}
+
+.lower-row-header {
+    display: flex;
+    flex-direction: row;
 }
 
 #front {
@@ -278,13 +291,20 @@ ul {
 
 .source {
     font-weight: 600;
-    margin-top: 3px;
+    margin-top: 1vh;
 }
 
 #flower-img {
+    /* position:absolute; */
+    /* margin-left: 34vw;
+    margin-top: -31vh; */
     position:absolute;
-    margin-left: 34vw;
-    margin-top: -31vh;
+}
+
+.right-side{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 footer {

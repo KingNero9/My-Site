@@ -43,8 +43,8 @@
                     <a class="nav-link disabled" id="disabledNav" href="#" tabindex="-1" aria-disabled="true">&copy 2021</a>
                   </li>
                 </ul>
-                <form class="d-flex">
-                  <input class="form-control me-2" id="searchPlace" type="search" placeholder="Search here" aria-label="Search">
+                <form class="d-flex" role="search" id="form">
+                  <input  class="form-control me-2" id="searchPlace" type="search" placeholder="Search here" aria-label="Search">
                   <button class="btn" id="searchBtn" type="submit">Search</button>
                 </form>
               </div>
@@ -87,30 +87,13 @@
             </div>
             <br/>
             
-            <h6 id="courses">My Courses</h6>
-            <div id="study-courses">
-              <ul><a id="python" target="_blank" href="https://www.udemy.com/course/complete-python-bootcamp/">2021 Complete Python Course</a>
-                <h6 class="source">udemy-2020</h6>
-              </ul>
-              <ul><a id="front" target="_blank" href="https://www.udemy.com/course/front-end-web-development/">The Complete Front-End Web Development Course</a>
-                <h6 class="source">udemy-2021</h6>
-              </ul>
-              <ul><a id="typescript" target="_blank" href="https://www.udemy.com/course/understanding-typescript/">Understanding Typescript - 2021 edition</a>
-                <h6 class="source">udemy-2021</h6>
-              </ul>
-              <ul>Data Structures and Algorithms
-                <h6 class="source">Afeka collage of engineering - 2021</h6>
-              </ul>
-              <ul>Design Patterns in Java language, OPP
-                <h6 class="source">Afeka collage of engineering - 2021</h6>
-              </ul>
-            </div>
+            
           </div>
       </aside>
         <aside id="contact-b" class="py-3 bg-main">
             <img id="myImg" src="pictures/myimg.jpeg">
         </aside>
-        <div class="AboutMe-text">
+        <div class="AboutMe-text py-3 bg-main col-xs-9 col-md-">
             <h6 id="intro">Introduction!</h6>
             <div id="about-myself">
                 Hello! I'm Tali, a web designer and a software engineer student, <br/>
@@ -120,8 +103,12 @@
                 Looking for my foothold in the world of programming!
             </div>
             <br/>
-            <h6 id="not-to-brag">Not to brag but I'm...</h6>
+            <div class="lower-row-header col-xs-3 col-md-5">
+              <h6 id="not-to-brag">Not to brag but I'm...</h6>
+              <h6 id="courses">My Courses</h6>
+            </div>
             <br/>
+            <div class="lower-row">
                 <div id="my-qualities" class="same-line">
                     <div>
                         <ul>Self disciplined</ul>
@@ -134,12 +121,28 @@
                         <ul>Proactive</ul>
                     </div>
                 </div>
-                <img id="flower-img" src="pictures/pink-flowers-small-2_2_40.png">
+                
+                <div id="study-courses">
+                  <ul><a id="python" target="_blank" href="https://www.udemy.com/course/complete-python-bootcamp/">2021 Complete Python Course</a>
+                    <h6 class="source">udemy-2020</h6>
+                  </ul>
+                  <ul><a id="front" target="_blank" href="https://www.udemy.com/course/front-end-web-development/">The Complete Front-End Web Development Course</a>
+                    <h6 class="source">udemy-2021</h6>
+                  </ul>
+                  <ul><a id="typescript" target="_blank" href="https://www.udemy.com/course/understanding-typescript/">Understanding Typescript - 2021 edition</a>
+                    <h6 class="source">udemy-2021</h6>
+                  </ul>
+                  <ul>Data Structures and Algorithms
+                    <h6 class="source">Afeka collage of engineering - 2021</h6>
+                  </ul>
+                  <ul>Design Patterns in Java language, OPP
+                    <h6 class="source">Afeka collage of engineering - 2021</h6>
+                  </ul>
+                </div>
+              </div>
                 
         </div>
 
-        
-        
         
         <img id="languages1-img" src="pictures/languages1-small.png ">
         
