@@ -244,6 +244,11 @@ body {
     margin-top:1.5vh;
 }
 
+#airplane{
+   
+    margin-top: -5vh;
+    position:absolute;
+}
 
 footer {
     text-align: center;

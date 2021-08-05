@@ -43,10 +43,6 @@
                     <a class="nav-link disabled" id="disabledNav" href="#" tabindex="-1" aria-disabled="true">&copy 2021</a>
                   </li>
                 </ul>
-                <form class="d-flex" role="search" id="form">
-                  <input  class="form-control me-2" id="searchPlace" type="search" placeholder="Search here" aria-label="Search">
-                  <button class="btn" id="searchBtn" type="submit">Search</button>
-                </form>
               </div>
             </div>
           </nav>
@@ -72,8 +68,47 @@
         <h1 id="mainHeader">Wow, a whole page just about me!</h1> 
         <h4 id="secondaryHeader">Let me tell you a little about myself</h4>
         <hr id="line1"> 
-        <aside class="courses-knowladge" class="py-3 bg-main">
-          <div> 
+        
+        <aside id="contact-b" class="py-3 bg-main">
+            <img width="18%" id="myImg" src="pictures/myimg.jpeg">
+            <img width="23%" id="computer-gif" src="pictures/blue-bomputer-gif.gif">
+            
+              
+        </aside>
+        <div class="about-me">
+          <article id="intruduction">
+            Hello! I'm Tali, a web designer and a software engineer student, <br/>
+            Who loves to design and develope in the Internet sphere. <br/>
+            I have a strong passion for programming, very eager to learn and develop any new technologies. <br/>
+            Looking for my foothold in the world of programming!
+            <h6 id="not-to-brag">Not to brag but I'm...</h6>
+            <div id="qualities">
+              <ul>Self disciplined</ul>
+              <ul>Fast learner</ul>
+              <ul>Creative thinker</ul>
+              <ul>Great team player</ul>
+              <ul>Extremely motivated</ul>
+              <ul>Attention to details</ul>
+              <ul>Commited and Proactive</ul>
+            </div>
+            <h6 id="courses">My Courses</h6>
+            <div id="study-courses">
+              <ul><a id="python" target="_blank" href="https://www.udemy.com/course/complete-python-bootcamp/">2021 Complete Python Course</a>
+                <h6 class="source">udemy-2020</h6>
+              </ul>
+              <ul><a id="front" target="_blank" href="https://www.udemy.com/course/front-end-web-development/">The Complete Front-End Web Development Course</a>
+                <h6 class="source">udemy-2021</h6>
+              </ul>
+              <ul><a id="typescript" target="_blank" href="https://www.udemy.com/course/understanding-typescript/">Understanding Typescript - 2021 edition</a>
+                <h6 class="source">udemy-2021</h6>
+              </ul>
+              <ul>Data Structures and Algorithms
+                <h6 class="source">Afeka collage of engineering - 2021</h6>
+              </ul>
+              <ul>Design Patterns in Java language, OPP
+                <h6 class="source">Afeka collage of engineering - 2021</h6>
+              </ul>
+            </div>
             <h6 id="knowladge">Programming knowladge</h6>
             <div id="languages">
               <ul>HTML5</ul>
@@ -85,66 +120,13 @@
               <ul>Python</ul>
               <ul>SQL</ul>
             </div>
-            <br/>
-            
-            
-          </div>
-      </aside>
-        <aside id="contact-b" class="py-3 bg-main">
-            <img id="myImg" src="pictures/myimg.jpeg">
-        </aside>
-        <div class="AboutMe-text py-3 bg-main col-xs-9 col-md-">
-            <h6 id="intro">Introduction!</h6>
-            <div id="about-myself">
-                Hello! I'm Tali, a web designer and a software engineer student, <br/>
-                Who loves to design and develope in the Internet sphere. <br/>
-                I have a strong passion for programming.<br/> 
-                Very eager to learn and develop any new technologies. <br/>
-                Looking for my foothold in the world of programming!
-            </div>
-            <br/>
-            <div class="lower-row-header col-xs-3 col-md-5">
-              <h6 id="not-to-brag">Not to brag but I'm...</h6>
-              <h6 id="courses">My Courses</h6>
-            </div>
-            <br/>
-            <div class="lower-row">
-                <div id="my-qualities" class="same-line">
-                    <div>
-                        <ul>Self disciplined</ul>
-                        <ul>Fast learner</ul>
-                        <ul>Creative thinker</ul>
-                        <ul>Great team player</ul>
-                        <ul>Extremely motivated</ul>
-                        <ul>Attention to details</ul>
-                        <ul>Commited</ul>
-                        <ul>Proactive</ul>
-                    </div>
-                </div>
-                
-                <div id="study-courses">
-                  <ul><a id="python" target="_blank" href="https://www.udemy.com/course/complete-python-bootcamp/">2021 Complete Python Course</a>
-                    <h6 class="source">udemy-2020</h6>
-                  </ul>
-                  <ul><a id="front" target="_blank" href="https://www.udemy.com/course/front-end-web-development/">The Complete Front-End Web Development Course</a>
-                    <h6 class="source">udemy-2021</h6>
-                  </ul>
-                  <ul><a id="typescript" target="_blank" href="https://www.udemy.com/course/understanding-typescript/">Understanding Typescript - 2021 edition</a>
-                    <h6 class="source">udemy-2021</h6>
-                  </ul>
-                  <ul>Data Structures and Algorithms
-                    <h6 class="source">Afeka collage of engineering - 2021</h6>
-                  </ul>
-                  <ul>Design Patterns in Java language, OPP
-                    <h6 class="source">Afeka collage of engineering - 2021</h6>
-                  </ul>
-                </div>
-              </div>
-                
+          </article>
+
         </div>
+        
 
         
-        <img id="languages1-img" src="pictures/languages1-small.png ">
+        
         
         <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
         <script src="js/jquery-3.6.0.min.js"></script>
@@ -152,6 +134,8 @@
         <script src="js/bootstrap.min.js"></script>
     </body>
     <footer>
+      <img id="languages1-img" src="pictures/languages1-small.png ">
+      <br/>
         Copyright © 2021. All Rights Reserved
     </footer>
 </html>
