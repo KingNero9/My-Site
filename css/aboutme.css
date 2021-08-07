@@ -137,11 +137,11 @@ body {
 #computer-gif {
     float:right;
 }
-/* .flex-container{
+.flex-container{
     float:right;
     display: flex;
     flex-direction: column;
-} */
+}
 
 .about-me {
     font-family: "Handlee" , serif ;
@@ -151,10 +151,6 @@ body {
     display: flex;
     flex-direction: row-reverse;
     margin-right: -10vw;
-}
-
-#intruduction {
-    
 }
 
 #not-to-brag {
