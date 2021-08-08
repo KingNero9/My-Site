@@ -4,6 +4,11 @@
 
 body {
     background: #d4d4d4;
+    margin: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 .container-fluid {
