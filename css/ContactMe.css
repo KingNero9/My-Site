@@ -13,14 +13,16 @@ body {
 
 .container-fluid {
     background: #E6A4B4;
-    padding-bottom:5px;
-    padding-top: 22px;
-    position: fixed;
+    border-color: #E6A4B4;
+    margin-bottom:0.2rem;
+    margin-top: 0.2rem;
 }
 
-#searchPlace {
-    margin-top: 5px;
+.navbar {
+    top: -2%;
 }
+
+
 
 .navbar-brand {
     margin-top:14px;
@@ -31,7 +33,7 @@ body {
 }
 
 #myname:hover{
-    color:rgb(78, 47, 97)
+    color:rgb(78, 47, 97);
 }
 
 #aboutme {
@@ -55,7 +57,7 @@ body {
 }
 
 #contactme:hover{
-    color:rgb(114, 92, 128)
+    color:rgb(114, 92, 128);
 }
 
 #myprojects {
@@ -67,7 +69,7 @@ body {
 }
 
 #myprojects:hover{
-    color:rgb(114, 92, 128)
+    color:rgb(114, 92, 128);
 }
 
 .itemDrop:hover {
@@ -80,20 +82,11 @@ body {
     margin-top: 15px;
 }
 
-#searchBtn {
-    background:#e77995;
-    margin-top:5px;
-}
 
-#searchBtn:hover {
-    background:rgb(238, 143, 176);
-    margin-top:5px;
-    border-color:#C86B85;
-}
 
 #imgGithub {
-    margin-top: 2.8rem;
-    margin-right: 0.8rem;
+    margin-top: -1rem;
+    margin-right: 2rem;
     float: right;
 }
 
@@ -105,11 +98,13 @@ body {
 }
 
 #flower {
-    float: right; /*position in the left side of page*/
+    float: right; /*position in the right side of page*/
     position: absolute;
     display: block;
     top: 11%;
     left: 52%;
+    
+    
 }
 
 

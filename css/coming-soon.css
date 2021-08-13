@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Handlee&display=swap');
+
+#button-container {
+    margin-left: 40%;
+    margin-top: 33.5%;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgba(230, 164, 180, 0.9);
+    border-radius: 4px;  
+}
+
+#button-container:hover{
+    background-color: rgba(230, 164, 180, 0.8);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size:180%;
+    font-family: "Handlee" , serif;
+}
+
+a:hover {
+    color: rgb(200, 107, 133);
+}
+
+footer {
+    text-align: center;
+    margin-top: 40%;
+    color: black;
+}

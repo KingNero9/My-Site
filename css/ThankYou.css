@@ -14,14 +14,16 @@ body {
 
 .container-fluid {
     background: #E6A4B4;
-    padding-bottom:5px;
-    padding-top: 22px;
-    position: fixed;
+    border-color: #E6A4B4;
+    margin-bottom:0.2rem;
+    margin-top: 0.2rem;
 }
 
-#searchPlace {
-    margin-top: 5px;
+.navbar {
+    top: -2%;
 }
+
+
 
 .navbar-brand {
     margin-top:14px;
@@ -92,15 +94,15 @@ body {
     border-color:#C86B85;
 }
 
-#imgGithub {
-    margin-top: 2.8rem;
-    margin-right: 0.8rem;
+#imgLinkedin {
+    margin-top: -1rem;
+    margin-right: 2rem;
     float: right;
 }
 
-#imgLinkedin {
-    margin-top: 2.8rem;
-    margin-right: 0.8rem;
+#imgGithub {
+    margin-top: -1rem;
+    margin-right: 2rem;
     float: right;
 }
 
