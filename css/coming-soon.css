@@ -30,3 +30,77 @@ footer {
     margin-top: 40%;
     color: black;
 }
+
+
+@media (min-width: 320px) { /*Mobile -small */
+    #button-container {
+        margin-top: 10%;
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    footer {
+        margin-top: 150%;
+    }
+}
+    
+@media (min-width: 375px) { /*Mobile - medium*/
+    #button-container {
+        margin-top: 10%;
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    footer {
+        margin-top: 125%;
+    }
+}
+    
+@media (min-width:425px) { /*Mobile - big & Tablet - portrait */   
+    #button-container {
+        margin-top: 10%;
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    footer {
+        margin-top: 110%;
+    }
+}
+    
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) { /*Tablets - landscape*/  /*V*/
+    #button-container {
+        margin-top: 10%;
+        width: 30%;
+        margin-left: 33%;
+    }
+
+    footer {
+        margin-top: 50%;
+    }
+}
+    
+@media screen and (min-width: 1024px){ /*Laptop + Desktop*/  /* V */
+    #button-container {
+        margin-top: 5%;
+        width: 30%;
+        margin-left: 33%;
+    }
+
+    footer {
+        margin-top: 45%;
+    }
+}
+    
+@media screen and (min-width: 1440px){ /*Laptop + Desktop*/ /* V */
+    #button-container {
+        margin-top: 2%;
+        width: 20%;
+        margin-left: 38%;
+    }
+
+    footer {
+        margin-top: 34%;
+    }
+}
+    
