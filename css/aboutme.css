@@ -3,6 +3,7 @@
 
 
 body {
+    background: #d4d4d4;
     margin: 0 !important;
     width: 100vw !important;
     height: 100vh !important;
@@ -247,22 +248,11 @@ footer {
        padding-top: 10px;
     }       
 
-    .second-row {
-
-    }
-
-    #courses {
-
-    }
-
     #languages1-img{
         margin-top: -30%;
         width: 80%;
     }
-    
-    footer {
-    
-    }
+
 }
 
 @media (min-width: 375px) { /*Mobile - medium*/
@@ -289,22 +279,11 @@ footer {
        padding-top: 10px;
     }       
 
-    .second-row {
-
-    }
-
-    #courses {
-
-    }
-
     #languages1-img{
         margin-top: -30%;
         width: 80%;
     }
     
-    footer {
-    
-    }
 }
 
 @media (min-width:425px) { /*Mobile - big & Tablet - portrait */
@@ -366,21 +345,9 @@ footer {
        padding-top: 10px;
     }       
 
-    .second-row {
-
-    }
-
-    #courses {
-
-    }
-
     #languages1-img{
         margin-top: -30%;
         width: 80%;
-    }
-    
-    footer {
-    
     }
     
   }
@@ -394,20 +361,6 @@ footer {
         margin-top: -0.3%;
     }
 
-    /* #imgLinkedin {
-        margin-top: 0%;
-        margin-right: 2;
-        float: right;
-        padding-bottom: 4%;
-    }
-
-    #imgGithub {
-        margin-top: 0%;
-        margin-right: 2%;
-        float: right;
-    } */
-
-    
     #about-description-container {
        padding-top: 10px;
     }       
@@ -424,7 +377,7 @@ footer {
         min-width: 23.6%;
         float: left;
         margin-left: 23.4%;
-        margin-top: -12%;
+        margin-top: -7%;
     }
 
     #brag {
@@ -432,20 +385,13 @@ footer {
         height: 70%;
         float: right;
         margin-right: 20%;
-        margin-top: -12%;
+        margin-top: -7%;
     }
 
     #courses {
         margin-left: 23.5%;
         width: 57%;
-        margin-top:5.5%;
-
-    }
-    .second-row {
-
-    }
-
-    #courses {
+        margin-top:19%;
 
     }
 
@@ -512,7 +458,7 @@ footer {
     #courses {
         margin-left: 23.5%;
         width: 57%;
-        margin-top:5.5%;
+        margin-top:-10%;
         font-size: 130%;
 
     }
@@ -521,7 +467,7 @@ footer {
     }
 
     #courses {
-        margin-top: -1%;
+        margin-top: 13%;
     }
 
     #languages1-img{
