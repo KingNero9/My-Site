@@ -133,16 +133,16 @@ footer {
         margin-top: -5%;
         margin-right: 1%;
     }
-
+    
     #myNameHeader {
         text-align: center;
-        margin-top: 35%;
+        margin-top: 67%;
         margin-left: -2%;
         font-size: 8vh;
     }
     
     footer {
-        margin-top: 60%;
+        margin-top: 110%;
     }
 }
 
@@ -156,16 +156,16 @@ footer {
         margin-top: -4.5%;
         margin-right: 1%;
     }
-
+    
     #myNameHeader {
         text-align: center;
-        margin-top: 33%;
+        margin-top: 63%;
         margin-left: -2%;
         font-size: 8vh;
     }
     
     footer {
-        margin-top: 60%;
+        margin-top: 50%;
     }
 }
 
@@ -179,21 +179,21 @@ footer {
         margin-top: -1.5%;
         margin-right: 1%;
     }
-
+    
     #myNameHeader {
         text-align: center;
-        margin-top: 30%;
+        margin-top: 55%;
         margin-left: -2%;
         font-size: 8vh;
     }
     
     footer {
-        margin-top: 25%;
+        margin-top: 70%;
     }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) { /*Tablets - landscape*/  /*V*/
-  
+@media (min-width: 768px)  { /*Tablets - landscape*/  /*V*/
+    
     #imgLinkedin {
         margin-top: -2%;
         margin-right: 2%;  
@@ -201,23 +201,23 @@ footer {
     
     #imgGithub {
         margin-top: -2%;
-        margin-right: 1%;
+        margin-right: 1%; 
     }
-
+    
     #myNameHeader {
         text-align: center;
-        margin-top: 18%;
+        margin-top: 28%;
         margin-left: -2%;
         font-size: 8vh;
     }
     
     footer {
-        margin-top: 25%;
+        margin-top: 47%;
     }
     
-  }
+}
 
-@media screen and (min-width: 1024px){ /*Laptop + Desktop*/  /* V */
+@media screen and (min-width: 1024px)and (max-width: 1024px) and (orientation: landscape){ /*Laptop + Desktop*/  /* V */
     #imgLinkedin {
         margin-top: -1%;
         margin-right: 2%;  
@@ -227,16 +227,16 @@ footer {
         margin-top: -1%;
         margin-right: 1%;
     }
-
+    
     #myNameHeader {
         text-align: center;
-        margin-top: 11%;
-        margin-left: -2%;
-        font-size: 8vh;
-    }
-    
-    footer {
         margin-top: 20%;
+        margin-left: -2%;
+        font-size: 8vh;
+    }
+    
+    footer {
+        margin-top: 35%;
     }
 }
 
@@ -250,10 +250,10 @@ footer {
         margin-top: -1%;
         margin-right: 1%;
     }
-
+    
     #myNameHeader {
         text-align: center;
-        margin-top: 12%;
+        margin-top: 15%;
         margin-left: -2%;
         font-size: 8vh;
     }
@@ -273,7 +273,7 @@ footer {
         margin-top: -1%;
         margin-right: 1%;
     }
-
+    
     #myNameHeader {
         text-align: center;
         margin-top: 15%;
@@ -283,8 +283,9 @@ footer {
     
     footer {
         margin-top: 25%;
+        
     }
 }
 
 
-  
+

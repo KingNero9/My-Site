@@ -159,3 +159,146 @@ footer {
     margin-top: 5vh;
     color: black;
 }
+
+
+@media (min-width: 320px) { /*Mobile -small */
+#imgLinkedin {
+    margin-top: -1rem;
+    margin-right: 2rem;
+    float: right;
+}
+
+#imgGithub {
+    margin-top: -1rem;
+    margin-right: 1rem;
+    float: right;
+}
+
+#main-header {
+    text-align: center;
+    font-family: "Dancing Script", serif;
+    font-size: 10vh;
+    color:#ec8ca4;
+    margin-top: 10vh !important;
+    margin-bottom: 0px;
+}
+
+#secondary-header{
+    text-align: center;
+    margin-top: 1vh;
+    font-family: "Handlee" , serif;
+}
+
+#line1 {
+    color:#C86B85;
+    height: 0.5vh;
+    margin-left: 42.5vw;
+    width: 15vw;
+    align-items: center;
+}
+
+.share-online {
+    text-align:center;
+    margin-top: 15vh;
+    
+}
+
+#share-header{
+    font-family: "Dancing Script", serif;
+}
+
+
+#pink-flower {
+    float: right; /*position in the left side of page*/
+    position: absolute;
+    display: block;
+    margin-top: 105%;
+    margin-left: 70%;
+    width: 20%;
+    
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 5vh;
+    color: black;
+}
+}
+
+@media (min-width: 375px) { /*Mobile - medium*/
+    #pink-flower {
+        float: right; /*position in the left side of page*/
+        position: absolute;
+        display: block;
+        margin-top: 60%;
+        margin-left: 70%;
+        width: 20%;
+      
+}
+}
+
+@media (min-width:425px) { /*Mobile - big & Tablet - portrait */   
+    #pink-flower {
+        float: right; /*position in the left side of page*/
+        position: absolute;
+        display: block;
+        margin-top: 50%;
+        margin-left: 70%;
+        width: 20%;
+}
+
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) { /*Tablets - landscape*/  /*V*/
+    #pink-flower {
+        float: right; /*position in the left side of page*/
+        position: absolute;
+        display: block;
+        margin-top: 20%;
+        margin-left: 70%;
+        width: 20%;
+    }
+
+
+}
+
+@media screen and (min-width: 1024px){ /*Laptop + Desktop*/  /* V */
+    #pink-flower {
+        float: right; /*position in the left side of page*/
+        position: absolute;
+        display: block;
+        margin-top: -7%;
+        margin-left: -2%;
+        width: 15%;
+}
+#main-header {
+    text-align: center;
+    font-family: "Dancing Script", serif;
+    font-size: 15vh;
+    color:#ec8ca4;
+    margin-top: 18vh !important;
+    margin-bottom: 0px;
+}
+}
+
+@media screen and (min-width: 1440px){ /*Laptop + Desktop*/ /* V */
+    #pink-flower {
+        float: right; /*position in the left side of page*/
+        position: absolute;
+        display: block;
+        margin-top: -7%;
+        margin-left: 2%;
+        width: 15%;
+}
+
+#main-header {
+    text-align: center;
+    font-family: "Dancing Script", serif;
+    font-size: 20vh;
+    color:#ec8ca4;
+    margin-top: 10vh !important;
+    margin-bottom: 0px;
+}
+}
