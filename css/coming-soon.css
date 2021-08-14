@@ -32,7 +32,7 @@ footer {
 }
 
 
-@media (min-width: 320px) { /*Mobile -small */
+@media (min-width: 320px) { 
     #button-container {
         margin-top: 10%;
         width: 100%;
@@ -44,7 +44,7 @@ footer {
     }
 }
     
-@media (min-width: 375px) { /*Mobile - medium*/
+@media (min-width: 375px) {
     #button-container {
         margin-top: 10%;
         width: 100%;
@@ -56,7 +56,7 @@ footer {
     }
 }
     
-@media (min-width:425px) { /*Mobile - big & Tablet - portrait */   
+@media (min-width:425px) { 
     #button-container {
         margin-top: 10%;
         width: 100%;
@@ -68,7 +68,7 @@ footer {
     }
 }
     
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) { /*Tablets - landscape*/  /*V*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) { 
     #button-container {
         margin-top: 10%;
         width: 30%;
@@ -80,7 +80,7 @@ footer {
     }
 }
     
-@media screen and (min-width: 1024px){ /*Laptop + Desktop*/  /* V */
+@media screen and (min-width: 1024px){ 
     #button-container {
         margin-top: 5%;
         width: 30%;
@@ -92,7 +92,7 @@ footer {
     }
 }
     
-@media screen and (min-width: 1440px){ /*Laptop + Desktop*/ /* V */
+@media screen and (min-width: 1440px){ 
     #button-container {
         margin-top: 2%;
         width: 20%;
