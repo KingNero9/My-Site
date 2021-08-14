@@ -3,7 +3,7 @@
 
 
 body {
-    background: #d4d4d4;
+    /* background: #d4d4d4; */
     margin: 0 !important;
     width: 100vw !important;
     height: 100vh !important;
@@ -184,7 +184,7 @@ body {
 #contact-b {
     margin-left: 4vw;
     margin-top: 9vh;
-    position: fixed;
+    /* position: fixed; */
     margin-right: 5vw;
 }
 
@@ -255,4 +255,737 @@ footer {
     top:70%;
     padding-right: 1vw;
     color: black;
+}
+
+
+@media (min-width: 320px) { /*Mobile -small */
+    #imgGithub {
+        margin-top: -17%;
+        margin-right: 4%;
+        float: right;
+    }
+
+    #contact-b {
+    margin-left: 4vw;
+    margin-top: 9vh;
+    /* s */
+    margin-right: 5vw;
+}
+
+#imgMail {
+    position: absolute;
+    float: left;
+    margin-left:-2.5vw;
+    margin-top: 0.2vh;
+}
+
+#email-label {
+    margin-left: 15%;
+}
+
+#mymail {
+    
+}
+
+#imgLinkedin {
+    position: absolute;
+    float: left;
+    margin-left:-2.5vw;
+    margin-top: 0.2vh;
+}
+
+#linkedin-lable{
+    margin-left: 15%;
+}
+
+#mylinkedin{
+   
+}
+
+#imgPhone {
+    position: absolute;
+    float: left;
+    margin-left:-2.2vw;
+    margin-top: 0.5vh;
+    height: 5%;
+}
+
+#phone-lable {
+    margin-left: 15%;
+}
+
+#myphone {
+
+}
+
+#flower {
+    float: right; /*position in the right side of page*/
+    position: absolute;
+    display: block;
+    margin-top: 100%;
+    margin-left: 10%;
+    width: 30%;
+}
+
+#contactmeText {
+    margin-top: -130%;
+    font-family: "Dancing Script", serif;
+    font-size: 60px;
+    margin-left: -3%;
+}
+
+.container-whole {
+    margin-top: 90%;
+    margin-left: -85%;
+}
+
+#imgContact {
+    width: 6%;
+}
+
+#imgName {
+    width: 5%;
+}
+
+#emailInput {
+    width: 40%;
+}
+
+#nameInput {
+    width: 40%;
+}
+#messageText {
+    overflow:scroll;
+    overflow-x: hidden;
+    position:relative;
+    opacity: 0.8;
+    width: 40%;
+}
+
+.success {
+    background:#e77995;
+    margin-top:5px;
+    color: black;
+    margin-left: 47vh !important;
+    margin-top: 2vh;
+    padding: 1vh;
+}
+
+footer {
+    
+    margin-top: 10%;
+    padding-right: 1vw;
+    color: black;
+    margin-left: -10%;
+}
+}
+
+@media (min-width: 375px) { /*Mobile - medium*/
+    #imgGithub {
+        margin-top: -17%;
+        margin-right: 4%;
+        float: right;
+    }
+
+    #contact-b {
+    margin-left: 4vw;
+    margin-top: 9vh;
+    /* s */
+    margin-right: 5vw;
+}
+
+#imgMail {
+    position: absolute;
+    float: left;
+    margin-left:-2.5vw;
+    margin-top: 0.2vh;
+}
+
+#email-label {
+    margin-left: 10%;
+}
+
+#mymail {
+    
+}
+
+#imgLinkedin {
+    position: absolute;
+    float: left;
+    margin-left:-2.5vw;
+    margin-top: 0.2vh;
+}
+
+#linkedin-lable{
+    margin-left: 10%;
+}
+
+#mylinkedin{
+   
+}
+
+#imgPhone {
+    position: absolute;
+    float: left;
+    margin-left:-2.2vw;
+    margin-top: 0.5vh;
+    height: 5%;
+}
+
+#phone-lable {
+    margin-left: 10%;
+}
+
+#myphone {
+
+}
+
+#flower {
+    float: right; /*position in the right side of page*/
+    position: absolute;
+    display: block;
+    margin-top: 90%;
+    margin-left: 7%;
+    width: 33%;
+}
+
+#contactmeText {
+    margin-top: -110%;
+    font-family: "Dancing Script", serif;
+    font-size: 60px;
+    margin-left: -3%;
+}
+
+.container-whole {
+    margin-top: 80%;
+    margin-left: -70%;
+}
+
+#imgContact {
+    width: 6%;
+}
+
+#imgName {
+    width: 5%;
+}
+
+#emailInput {
+    width: 40%;
+}
+
+#nameInput {
+    width: 40%;
+}
+#messageText {
+    overflow:scroll;
+    overflow-x: hidden;
+    position:relative;
+    opacity: 0.8;
+    width: 40%;
+}
+
+.success {
+    background:#e77995;
+    margin-top:5px;
+    color: black;
+    margin-left: 47vh !important;
+    margin-top: 2vh;
+    padding: 1vh;
+}
+
+footer {
+    
+    margin-top: 10%;
+    padding-right: 1vw;
+    color: black;
+    margin-left: -10%;
+}
+}
+
+@media (min-width:425px) { /*Mobile - big & Tablet - portrait */   
+    #imgGithub {
+        margin-top: -17%;
+        margin-right: 4%;
+        float: right;
+    }
+
+    #contact-b {
+    margin-left: 4vw;
+    margin-top: 9vh;
+    /* s */
+    margin-right: 5vw;
+}
+
+#imgMail {
+    position: absolute;
+    float: left;
+    margin-left:-2.5vw;
+    margin-top: 0.2vh;
+}
+
+#email-label {
+    margin-left: 10%;
+}
+
+#mymail {
+    
+}
+
+#imgLinkedin {
+    position: absolute;
+    float: left;
+    margin-left:-2.5vw;
+    margin-top: 0.2vh;
+}
+
+#linkedin-lable{
+    margin-left: 10%;
+}
+
+#mylinkedin{
+   
+}
+
+#imgPhone {
+    position: absolute;
+    float: left;
+    margin-left:-2.2vw;
+    margin-top: 0.5vh;
+    height: 5%;
+}
+
+#phone-lable {
+    margin-left: 10%;
+}
+
+#myphone {
+
+}
+
+#flower {
+    float: right; /*position in the right side of page*/
+    position: absolute;
+    display: block;
+    margin-top: 75%;
+    margin-left: 7%;
+    width: 35%;
+}
+
+#contactmeText {
+    margin-top: -100%;
+    font-family: "Dancing Script", serif;
+    font-size: 60px;
+    margin-left: -1%;
+}
+
+.container-whole {
+    margin-top: 70%;
+    margin-left: -65%;
+}
+
+#imgContact {
+    width: 6%;
+}
+
+#imgName {
+    width: 5%;
+}
+
+#emailInput {
+    width: 40%;
+}
+
+#nameInput {
+    width: 40%;
+}
+#messageText {
+    overflow:scroll;
+    overflow-x: hidden;
+    position:relative;
+    opacity: 0.8;
+    width: 40%;
+}
+
+.success {
+    background:#e77995;
+    margin-top:5px;
+    color: black;
+    margin-left: 47vh !important;
+    margin-top: 2vh;
+    padding: 1vh;
+}
+
+footer {
+    
+    margin-top: 10%;
+    padding-right: 1vw;
+    color: black;
+    margin-left: -10%;
+}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) { /*Tablets - landscape*/  /*V*/
+    #imgGithub {
+        margin-top: -5%;
+        margin-right: 4%;
+        float: right;
+    }
+
+    #contact-b {
+    margin-left: 4vw;
+    margin-top: 9vh;
+    /* s */
+    margin-right: 5vw;
+}
+
+#imgMail {
+    position: absolute;
+    float: left;
+    margin-left:-2.5vw;
+    margin-top: 0.2vh;
+}
+
+#email-label {
+    margin-left: 3%;
+}
+
+#mymail {
+    
+}
+
+#imgLinkedin {
+    position: absolute;
+    float: left;
+    margin-left:-2.5vw;
+    margin-top: 0.2vh;
+}
+
+#linkedin-lable{
+    margin-left: 3%;
+}
+
+#mylinkedin{
+   
+}
+
+#imgPhone {
+    position: absolute;
+    float: left;
+    margin-left:-2.2vw;
+    margin-top: 0.5vh;
+    height: 4%;
+}
+
+#phone-lable {
+    margin-left: 3%;
+}
+
+#myphone {
+
+}
+
+#flower {
+    float: right; /*position in the right side of page*/
+    position: absolute;
+    display: block;
+    margin-top: 30%;
+    margin-left: 3%;
+    width: 35%;
+}
+
+#contactmeText {
+    margin-top: -55%;
+    font-family: "Dancing Script", serif;
+    font-size: 60px;
+    margin-left: -1%;
+}
+
+.container-whole {
+    margin-top: 70%;
+    margin-left: -70%;
+}
+
+#imgContact {
+    width: 2%;
+}
+
+#imgName {
+    width: 2%;
+}
+
+#emailInput {
+    width: 80%;
+}
+
+#nameInput {
+    width: 80%;
+}
+#messageText {
+    overflow:scroll;
+    overflow-x: hidden;
+    position:relative;
+    opacity: 0.8;
+    width: 80%;
+}
+
+.success {
+    background:#e77995;
+    margin-top:5px;
+    color: black;
+    margin-left: 47vh !important;
+    margin-top: 2vh;
+    padding: 1vh;
+}
+
+footer {
+    
+    margin-top: 10%;
+    padding-right: 1vw;
+    color: black;
+    margin-left: -10%;
+}
+}
+
+@media screen and (min-width: 1024px){ /*Laptop + Desktop*/  /* V */
+    #imgGithub {
+        margin-top: -5%;
+        margin-right: 4%;
+        float: right;
+    }
+
+    #contact-b {
+    margin-left: 4vw;
+    margin-top: 9vh;
+    /* s */
+    margin-right: 5vw;
+}
+
+#imgMail {
+    position: absolute;
+    float: left;
+    margin-left:-2.5vw;
+    margin-top: 0.2vh;
+}
+
+#email-label {
+    margin-left: 3%;
+}
+
+#mymail {
+    
+}
+
+#imgLinkedin {
+    position: absolute;
+    float: left;
+    margin-left:-2.5vw;
+    margin-top: 0.2vh;
+}
+
+#linkedin-lable{
+    margin-left: 3%;
+}
+
+#mylinkedin{
+   
+}
+
+#imgPhone {
+    position: absolute;
+    float: left;
+    margin-left:-2.2vw;
+    margin-top: 0.5vh;
+    height: 4%;
+}
+
+#phone-lable {
+    margin-left: 3%;
+}
+
+#myphone {
+
+}
+
+#flower {
+    float: right; /*position in the right side of page*/
+    position: absolute;
+    display: block;
+    margin-top: 4%;
+    margin-left: 8%;
+    width: 20%;
+}
+
+#contactmeText {
+    margin-top: -39%;
+    font-family: "Dancing Script", serif;
+    font-size: 120px;
+    margin-left: 1%;
+}
+
+.container-whole {
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+#imgContact {
+    width: 2%;
+}
+
+#imgName {
+    width: 2%;
+}
+
+#emailInput {
+    width: 100%;
+}
+
+#nameInput {
+    width: 100%;
+}
+#messageText {
+    overflow:scroll;
+    overflow-x: hidden;
+    position:relative;
+    opacity: 0.8;
+    width: 100%;
+}
+
+.success {
+    background:#e77995;
+    margin-top:5px;
+    color: black;
+    margin-left: 47vh !important;
+    margin-top: 2vh;
+    padding: 1vh;
+}
+
+footer {
+    
+    margin-top: 2%;
+    padding-right: 1vw;
+    color: black;
+    margin-left: -10%;
+}
+}
+
+@media screen and (min-width: 1440px){ /*Laptop + Desktop*/ /* V */
+    #imgGithub {
+        margin-top: -6%;
+        margin-right: 1%;
+        float: right;
+    }
+
+    #contact-b {
+    margin-left: 4vw;
+    margin-top: 9vh;
+    /* s */
+    margin-right: 5vw;
+}
+
+#imgMail {
+    position: absolute;
+    float: left;
+    margin-left:-2.5vw;
+    margin-top: 0.2vh;
+}
+
+#email-label {
+    margin-left: 0%;
+}
+
+#mymail {
+    
+}
+
+#imgLinkedin {
+    position: absolute;
+    float: left;
+    margin-left:-2.5vw;
+    margin-top: 0.2vh;
+}
+
+#linkedin-lable{
+    margin-left: 0%;
+}
+
+#mylinkedin{
+   
+}
+
+#imgPhone {
+    position: absolute;
+    float: left;
+    margin-left:-2.2vw;
+    margin-top: 0.5vh;
+    height: 3%;
+}
+
+#phone-lable {
+    margin-left: 0%;
+}
+
+#myphone {
+
+}
+
+#flower {
+    float: right; /*position in the right side of page*/
+    position: absolute;
+    display: block;
+    margin-top: -1%;
+    margin-left: 3%;
+    width: 20%;
+}
+
+#contactmeText {
+    margin-top: -37%;
+    font-family: "Dancing Script", serif;
+    font-size: 120px;
+    margin-left: 1%;
+}
+
+.container-whole {
+    margin-top: 5%;
+    margin-left: -10%;
+}
+
+#imgContact {
+    width: 2%;
+}
+
+#imgName {
+    width: 1.5%;
+}
+
+#emailInput {
+    width: 120%;
+}
+
+#nameInput {
+    width: 120%;
+}
+#messageText {
+    overflow:scroll;
+    overflow-x: hidden;
+    position:relative;
+    opacity: 0.8;
+    width: 120%;
+}
+
+.success {
+    background:#e77995;
+    margin-top:5px;
+    color: black;
+    margin-left: 47vh !important;
+    margin-top: 2vh;
+    padding: 1vh;
+}
+
+footer {
+    
+    margin-top: 2%;
+    padding-right: 1vw;
+    color: black;
+    margin-left: -10%;
+}
 }

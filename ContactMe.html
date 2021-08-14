@@ -70,7 +70,7 @@
                   <div class="aside-img">
                     <img id="imgMail" src="pictures/mail-icon2.png">
                   </div>
-                  <h3>Email</h3>
+                  <h3 id="email-label">Email</h3>
                   <p>
                     <a id="mymail" href="mailto:talishush@gmail.com">talishush@gmail.com</a>
                   </p> 
@@ -81,7 +81,7 @@
                   <div class="aside-img">
                     <img id="imgLinkedin" src="pictures/linkedin-icon.png">
                   </div>
-                  <h3>Linkedin</h3>
+                  <h3 id="linkedin-lable">Linkedin</h3>
                   <a id="mylinkedin" href="https://www.linkedin.com/in/tali-shushan-a743891ba/" target="_blank" rel="noopener noreferrer">To My LinkedIn
                     Profile</a>
                   </div>
@@ -91,7 +91,7 @@
                     <div class="aside-img">
                       <img id="imgPhone" src="pictures/phone-icon1.png">
                     </div>
-                    <h3>Phone</h3>
+                    <h3 id="phone-lable">Phone</h3>
                     <a id="myphone" href="tel:0533216636">972 53 3216636</a>
                   </div>
                 </div>
@@ -102,36 +102,39 @@
               </aside>
               <div class="container"> <!--will create a centered container with a max width of a 1000px-->
                 <h1 id="contactmeText">Contact me</h1>
-                <div class="col col-md-6">
-                  <form method="POST" action="https://formsubmit.co/talishush@gmail.com">
-                    <input type="text" name="_honey" style="display:none">
-                    <input type="hidden" name="_template" value="box">
-                    <input type="hidden" name="_captcha" value="false">
-                    <input type="hidden" name="_subject" value="New email from tali-shushan.website">
-                    <input type="hidden" name="_next" value="https://tali-shushan.website/thank-you-page.html">
-                    <div><!--will group a few forms together as one group-->
-                      <lable class="formLable" type="email" name="email" id="email-address" for="emailInput">Email</lable>
-                      <div class="imgs">
-                        <img id="imgContact" src="pictures/mail-icon.gif">
+                <div class="col col-md-6 ">
+                  <div class="container-whole">
+                    <form method="POST" action="https://formsubmit.co/talishush@gmail.com">
+                      <input type="text" name="_honey" style="display:none">
+                      <input type="hidden" name="_template" value="box">
+                      <input type="hidden" name="_captcha" value="false">
+                      <input type="hidden" name="_subject" value="New email from tali-shushan.website">
+                      <input type="hidden" name="_next" value="https://tali-shushan.website/thank-you-page.html">
+                      <div><!--will group a few forms together as one group-->
+                        <lable class="formLable" type="email" name="email" id="email-address" for="emailInput">Email</lable>
+                        <div class="imgs">
+                          <img id="imgContact" src="pictures/mail-icon.gif">
+                        </div>
+                        <input class="form-control" type="email" name="email" required id="emailInput" aria-describedat="emailHelp" placeholder="Email" />
+                        <!-- <input type="hidden" name="_autoresponse" value="Your message has recieved, Thank you. <br/> You'll recieve an answer soon."> -->
+                        <small id="emailHelp" class="form-text text-muted"> Insert your email</small>
                       </div>
-                      <input class="form-control" type="email" name="email" required id="emailInput" aria-describedat="emailHelp" placeholder="Email" />
-                      <!-- <input type="hidden" name="_autoresponse" value="Your message has recieved, Thank you. <br/> You'll recieve an answer soon."> -->
-                      <small id="emailHelp" class="form-text text-muted"> Insert your email</small>
-                    </div>
-                    <div>
-                      <lable class="formLable" for="nameInput">Name</lable>
-                      <div class="imgs">
-                        <img id="imgName" src="pictures/name-icon.gif">
+                      <div>
+                        <lable class="formLable" for="nameInput">Name</lable>
+                        <div class="imgs">
+                          <img id="imgName" src="pictures/name-icon.gif">
+                        </div>
+                        <input class="form-control" id="nameInput" type="text" name="name" placeholder="Name" required>
                       </div>
-                      <input class="form-control" id="nameInput" type="text" name="name" placeholder="Name" required>
-                    </div>
-                    
-                    <br/>
-                    
-                    
-                    <lable class="formLable" for="messageText">Message</lable>
-                    <textarea style="resize:none;" class="form-control" placeholder="Message" id="messageText" rows="6" type="text" name="message" required ></textarea>
+                      <br/>
+                      <lable class="formLable" for="messageText">Message</lable>
+                      <textarea style="resize:none;" class="form-control" placeholder="Message" id="messageText" rows="6" type="text" name="message" required ></textarea>
                     <button class="btn success" type="submit">Send</button>
+                    
+                  </div>
+
+                 
+                    
                     
                     
                     
