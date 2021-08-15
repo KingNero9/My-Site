@@ -159,6 +159,11 @@ nav .fa {
     justify-content: space-between;
 }
 
+.header .fa {
+    font-size: 23px;
+    margin-right:-3%;
+    margin-top: -4%;
+}
 
 
 /* -----------mobile :small, medium and large media queries --------*/
