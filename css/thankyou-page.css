@@ -85,76 +85,6 @@ nav img {
     font-family: "Handlee" , serif;
 }
 
-.pretty-btn { /*for future use in projects*/
-    display: inline-block;
-    text-decoration: none;
-    color: #fff;
-    border: 1px solid #fff;
-    padding: 12px 34px;
-    font-size: 13px;
-    background:transparent;
-    cursor: pointer;
-}
-
-.pretty-btn:hover {
-    border: 1px solid #C86B85;
-    background: #C86B85;
-    transition: 1s;
-}
-
-nav .fa {
-    display:none; /*the icons will be hidden from the larger screen devices*/
-}
-
-/* about us */
-
-.header {
-    height: 49vh;
-    width: 100%;  
-}
-
-.about-us h1 {
-    font-family: "Dancing Script", serif;
-    font-size: 30px;
-}
-
-.about-us {
-    width: 80%;
-    margin: auto;
-    padding-top: 80px;
-    padding-bottom: 50px;
-    font-family: 'Poppins', sans-serif;
-}
-
-.about-col {
-    flex-basis: 40%;
-    padding: 30px 2px;
-}
-
-.about-col img {
-    width: 70%;
-    border-radius: 5%;
-}
-
-.about-col h1 {
-    padding-top: 0;
-}
-
-.about-col p {
-    padding: 15px 0 25px;
-}
-
-.about-row {
-    flex-direction: column;
-    display:flex;
-}
-
-.row {
-    flex-direction: row;
-    display: flex;
-    justify-content: space-between;
-
-}
 .hero-btn {
     background: white;
     padding: 10px;
@@ -168,61 +98,29 @@ nav .fa {
 
 .hero-btn:hover {
     background: #ec8ca4;
+    cursor: pointer;
 }
 
-/*  blog content */
-.blog-content {
-    width: 80%;
-    margin: auto;
-    padding: 60px 0;
-    margin-top: -5%;
+nav .fa {
+    display:none; /*the icons will be hidden from the larger screen devices*/
 }
 
-.blog-left {
-    flex-basis: 60%;
-}
+/* container */
 
-.blog-left img {
-    width: 80%;
-}
-
-.blog-left h2 {
-    color: #222;
-    font-weight: 600;
-    margin: 30px 0;
-}
-
-.blog-left p {
-    color: #999;
-    padding: 0;
-}
-
-.blog-right {
-    flex-basis: 42%;
-}
-
-.blog-right h3 {
-    background: #ec8ca4;
-    color: #fff;
-    padding: 7px 0;
-    font-size: 16px;
-    margin-bottom: 20px;
-    
-    padding-left: 5px;
-    
-}
-
-.blog-right div {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: #555;
-    padding: 8px;
-    box-sizing: border-box;
+.container {
+    margin-top: 3%;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
 }
 
+.container p {
+    font-size: 20px;
+}
 
+#heart {
+    font-size: 25px;
+    margin-top: 5px;
+}
 /* footer */
 
 .footer {
@@ -255,6 +153,13 @@ nav .fa {
     margin-top: -1%;
 }
 
+.row {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+
+
 
 /* -----------mobile :small, medium and large media queries --------*/
 
@@ -279,7 +184,7 @@ nav .fa {
     }
 
     .nav-links {
-        position:absolute;
+        position:fixed;
         background: #ffffff;
         height: 100vh;
         width:200px;
@@ -310,8 +215,11 @@ nav .fa {
         flex-direction: column;
     }
 
-    .blog-right {
-        margin-top: 5%;
+    .container {
+        font-size: 11px;
     }
 
+    .container p {
+        font-size: 15px;
+    }
 }
