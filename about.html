@@ -6,15 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tali Shushan | Software Engineer</title>
     <link rel="icon" sizes="16x16" href="pictures/favicon/favicon-16x16.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/main-page.css">
+    <link rel="stylesheet" href="css/about.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
     <style>
         .header {
-            background-image: url("pictures/pink\ programmer.jpg");
-            /* linear-gradient(rgba(224, 204, 214, 0.7), rgba(224, 204, 214, 0.7)),  */
+            background-image: linear-gradient(rgba(224, 204, 214, 0.3), rgba(224, 204, 214, 0.3)), url("pictures/pink\ programmer.jpg");
             background-position:center;
             background-size: cover;
             background-repeat: no-repeat;
@@ -37,82 +36,86 @@
             <svg class="fa" onclick="showMenu()" stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
         </nav>
         <div class="text-box">
-            <h1>Tali Shushan</h1>
-            <h3>
-                A
-                <a class="typewrite" id="secondaryHeader" data-period="2000" data-type='[" Software Engineer.", " Web Developer."]'>
-                    <span class="wrap"></span>
-                </a>
-            </h3>
+            <h1>About me</h1>
         </div>
     </section>
 
-    <!-- courses -->
-    <section class="course"> <!---Good for about me page-->
-        <h1>My Courses</h1>
-        <p> Courses I've learned</p>
+    <!-- about us content -->
+
+    <section class="about-us">
         <div class="row">
-            <div class="course-col">
-                <a id="python" target="_blank" href="https://www.udemy.com/course/complete-python-bootcamp/"><h3>Complete Python Course</h3></a>
-                <p class="source">Udemy - 2020</p>
+            <div class="about-col">
+                <div class="about-row">
+                    <h1>Let me tell you a little about myself!</h1>
+                    <p>Hello! I'm Tali, <br/>
+                    a web designer and a BSc <br/>software engineer student, <br/>
+                    Who loves to design <br/>and develope in the Internet sphere. <br/>
+                    I have a strong passion for programming, very eager to learn and develop any new technologies. <br/>
+                    Looking for my foothold in the world of programming!</p>
+
+                    <h1>Not to brag but Im...</h1>
+                    <p>
+                        Self disciplined, Fast learner, Creative thinker, <br/>
+                        Great team player, Extremely motivated, <br/>
+                        Attention to details, Commited and Proactive <br/>
+                    </p>
+                </div>
+                
+                <a class="hero-btn" href="contact-me.html">Send a message!</a>
             </div>
-            <div class="course-col">
-                <a id="typescript" target="_blank" href="https://www.udemy.com/course/understanding-typescript/"><h3>Understanding Typescript</h3></a>
-                <p>Udemy - 2021</p>
-            </div>
-            <div class="course-col">
-                <a id="front" target="_blank" href="https://www.udemy.com/course/front-end-web-development/"><h3>The Complete Front-End Web Development Course</h3></a>
-                <p>Udemy - 2021</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="course-col2">
-                <h3>Data Structures and Algorithms</h3>
-                <p>Afeka collage of engineering - 2021</p>
-            </div>
-            <div class="course-col2">
-                <h3>Design Patterns in Java language, OPP</h3>
-                <p>Afeka collage of engineering - 2021</p>
+            <div class="about-col">
+                <img src="pictures/myimg.jpeg">
             </div>
         </div>
     </section>
 
-    <!-- projects -->
-    <section class="projects">
-            <h1>Projects</h1>
-            <p>Programmed and designed with HTML, CSS and JavaScript<br/>
-            Click the pictures to try!</p>
-            <div class="row">
-                <div class="projects-col">
-                    <img src="pictures/projects/my website - project.PNG">
-                    <a href="index.html" target="_blank">
-                        <div class="layer">
-                            <h3>My Website</h3>
-                            
-                        </div>
-                    </a>
+    <!-- blog page content -->
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="pictures/languages1-small.png">
+            </div>
+            <div class="blog-right">
+                <h3>My Programming Languages</h3>
+                <div>
+                    <span>HTML</span>
                 </div>
-                <div class="projects-col">
-                    <img src="pictures/projects/quiz app - project.PNG">
-                    <a href="projects/quiz/quiz-main.html" target="_blank">
-                        <div class="layer">
-                            <h3>Quiz App</h3>
-                        </div>
-                    </a>
+                <div>
+                    <span>CSS</span>
                 </div>
-                <div class="projects-col" target="_blank">
-                    <img src="pictures/projects/weather app - project.PNG">
-                    <a href="projects/weather/weather.html">
-                        <div class="layer">
-                            <h3>Weather App</h3>
-                        </div>
-                    </a>
+                <div>
+                    <span>JavaScript</span>
+                </div>
+                <div>
+                    <span>Java</span>
+                </div>
+                <div>
+                    <span>Python</span>
+                </div>
+                <div>
+                    <span>C</span>
+                </div>
+                <div>
+                    <span>C#</span>
+                </div>
+                <div>
+                    <span>TypeScript</span>
+                </div>
+                <div>
+                    <span>SQL, MySQL</span>
+                </div>
+                <div>
+                    <span>Bootstrap</span>
                 </div>
             </div>
+        </div>
     </section>
+
 
 
 <!-- footer -->
+
 
 <section class="footer">
     <h4>Visit me!</h4>
@@ -137,7 +140,19 @@
 
 
 
-    <script src="js/main-page.js"></script>
+    <script src="js/about.js"></script>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
     
 </body>
 <script src="js/main-page.js"></script>
