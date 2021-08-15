@@ -20,6 +20,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     font-family: 'Poppins', sans-serif;
+    margin-right: -4%;
 }
 
 nav img {

@@ -13,7 +13,6 @@ body {
 .header {
     height: 49vh;
     width: 100%;  
-
 }
 
 nav {
@@ -22,6 +21,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     font-family: 'Poppins', sans-serif;
+    margin-right: -4%;
 }
 
 nav img {
