@@ -23,122 +23,125 @@
     </style>
 </head>
 <body>
-    <section class="header">
-        <nav>
-            <a href="index.html"><img src="pictures/favicon/apple-icon-57x57.png"</a>
-            <div class="nav-links" id="navLinks">
-                <ul>
-                    <li><a href="about.html">About me</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="contact-me.html">Contact me</a></li>
-                    <li><a href="media/Resume - Tali Shushan_p.pdf" target="_blank">Resume</a></li>
-                </ul>
+    <div class="container">
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="pictures/favicon/apple-icon-57x57.png"</a>
+                <div class="nav-links" id="navLinks">
+                    <ul>
+                        <li><a href="about.html">About me</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact-me.html">Contact me</a></li>
+                        <li><a href="media/Resume - Tali Shushan_p.pdf" target="_blank">Resume</a></li>
+                    </ul>
+                </div>
+                <svg class="fa" onclick="showMenu()" stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+            </nav>
+            <div class="text-box">
+                <h1>Tali Shushan</h1>
+                <h3>
+                    A
+                    <a class="typewrite" id="secondaryHeader" data-period="2000" data-type='[" Software Engineer.", " Web Developer."]'>
+                        <span class="wrap"></span>
+                    </a>
+                </h3>
             </div>
-            <svg class="fa" onclick="showMenu()" stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
-        </nav>
-        <div class="text-box">
-            <h1>Tali Shushan</h1>
-            <h3>
-                A
-                <a class="typewrite" id="secondaryHeader" data-period="2000" data-type='[" Software Engineer.", " Web Developer."]'>
-                    <span class="wrap"></span>
-                </a>
-            </h3>
-        </div>
-    </section>
-
-    <!-- courses -->
-    <section class="course"> <!---Good for about me page-->
-        <h1>My Courses</h1>
-        <p> Courses I've learned</p>
-        <div class="row">
-            <div class="course-col">
-                <a id="python" target="_blank" href="https://www.udemy.com/course/complete-python-bootcamp/"><h3>Complete Python Course</h3></a>
-                <p class="source">Udemy - 2020</p>
+        </section>
+        
+        <!-- courses -->
+        <section class="course"> <!---Good for about me page-->
+            <h1>My Courses</h1>
+            <p> Courses I've learned</p>
+            <div class="row">
+                <div class="course-col">
+                    <a id="python" target="_blank" href="https://www.udemy.com/course/complete-python-bootcamp/"><h3>Complete Python Course</h3></a>
+                    <p class="source">Udemy - 2020</p>
+                </div>
+                <div class="course-col">
+                    <a id="typescript" target="_blank" href="https://www.udemy.com/course/understanding-typescript/"><h3>Understanding Typescript</h3></a>
+                    <p>Udemy - 2021</p>
+                </div>
+                <div class="course-col">
+                    <a id="front" target="_blank" href="https://www.udemy.com/course/front-end-web-development/"><h3>The Complete Front-End Web Development Course</h3></a>
+                    <p>Udemy - 2021</p>
+                </div>
             </div>
-            <div class="course-col">
-                <a id="typescript" target="_blank" href="https://www.udemy.com/course/understanding-typescript/"><h3>Understanding Typescript</h3></a>
-                <p>Udemy - 2021</p>
+            <div class="row">
+                <div class="course-col2">
+                    <h3>Data Structures and Algorithms</h3>
+                    <p>Afeka collage of engineering - 2021</p>
+                </div>
+                <div class="course-col2">
+                    <h3>Design Patterns in Java language, OPP</h3>
+                    <p>Afeka collage of engineering - 2021</p>
+                </div>
             </div>
-            <div class="course-col">
-                <a id="front" target="_blank" href="https://www.udemy.com/course/front-end-web-development/"><h3>The Complete Front-End Web Development Course</h3></a>
-                <p>Udemy - 2021</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="course-col2">
-                <h3>Data Structures and Algorithms</h3>
-                <p>Afeka collage of engineering - 2021</p>
-            </div>
-            <div class="course-col2">
-                <h3>Design Patterns in Java language, OPP</h3>
-                <p>Afeka collage of engineering - 2021</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- projects -->
-    <section class="projects">
+        </section>
+        
+        <!-- projects -->
+        <section class="projects">
             <h1>Projects</h1>
             <p>Programmed and designed with HTML, CSS and JavaScript<br/>
-            Click the pictures to try!</p>
-            <div class="row">
-                <div class="projects-col">
-                    <img src="pictures/projects/my website - project.PNG">
-                    <a href="index.html" target="_blank">
-                        <div class="layer">
-                            <h3>My Website</h3>
-                            
-                        </div>
-                    </a>
+                Click the pictures to try!</p>
+                <div class="row">
+                    <div class="projects-col">
+                        <img src="pictures/projects/my website - project.PNG">
+                        <a href="index.html" target="_blank">
+                            <div class="layer">
+                                <h3>My Website</h3>
+                                
+                            </div>
+                        </a>
+                    </div>
+                    <div class="projects-col">
+                        <img src="pictures/projects/quiz app - project.PNG">
+                        <a href="projects/quiz/quiz-main.html" target="_blank">
+                            <div class="layer">
+                                <h3>Quiz App</h3>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="projects-col" target="_blank">
+                        <img src="pictures/projects/weather app - project.PNG">
+                        <a href="projects/weather/weather.html">
+                            <div class="layer">
+                                <h3>Weather App</h3>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-                <div class="projects-col">
-                    <img src="pictures/projects/quiz app - project.PNG">
-                    <a href="projects/quiz/quiz-main.html" target="_blank">
-                        <div class="layer">
-                            <h3>Quiz App</h3>
-                        </div>
-                    </a>
-                </div>
-                <div class="projects-col" target="_blank">
-                    <img src="pictures/projects/weather app - project.PNG">
-                    <a href="projects/weather/weather.html">
-                        <div class="layer">
-                            <h3>Weather App</h3>
-                        </div>
-                    </a>
-                </div>
-            </div>
-    </section>
-
-
-<!-- footer -->
-
-<section class="footer">
-    <h4>Visit me!</h4>
-    <p>You are welcomed to visit my Linkedin and Github!</p>
-    <div class="icons">
-        <a href="https://www.linkedin.com/in/tali-shushan-a743891ba/" target="_blank">
-            <svg stroke="currentColor" class="fa" fill="#C86B85" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg>
-        </a>
-        &nbsp;
-        &nbsp;
-        <a href="https://github.com/KingNero9" target="_blank">
-            <svg stroke="currentColor" class="fa" fill="#C86B85" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9a127.5 127.5 0 0 1 38.1 91v112.5c.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z"></path></svg>
-        </a>
+            </section>
+        </div>
         
-    </div>
-    <br/>
-    <p>Made by Tali Shushan. <br/> Copyright © 2021. All Rights Reserved
-
-</section>
-
-
-
-
-
-    <script src="js/main-page.js"></script>
-    
-</body>
-<script src="js/main-page.js"></script>
-</html>
+        
+        
+        <!-- footer -->
+        
+        <section class="footer">
+            <h4>Visit me!</h4>
+            <p>You are welcomed to visit my Linkedin and Github!</p>
+            <div class="icons">
+                <a href="https://www.linkedin.com/in/tali-shushan-a743891ba/" target="_blank">
+                    <svg stroke="currentColor" class="fa" fill="#C86B85" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg>
+                </a>
+                &nbsp;
+                &nbsp;
+                <a href="https://github.com/KingNero9" target="_blank">
+                    <svg stroke="currentColor" class="fa" fill="#C86B85" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9a127.5 127.5 0 0 1 38.1 91v112.5c.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z"></path></svg>
+                </a>
+                
+            </div>
+            <br/>
+            <p>Made by Tali Shushan. <br/> Copyright © 2021. All Rights Reserved
+                
+            </section>
+            
+            
+            
+            
+            
+            <script src="js/main-page.js"></script>
+            
+        </body>
+        <script src="js/main-page.js"></script>
+        </html>
