@@ -86,21 +86,30 @@ nav img {
     font-family: "Handlee" , serif;
 }
 
-.hero-btn {
-    background: white;
-    padding: 10px;
-    border-radius: 30%;
-    border: 1px solid #ec8ca4;
-    color:black;
-    text-decoration: none;
-    transition: 0.5s;
-    margin-top: 5%;
+
+.hero-btn{
+	display: block;
+	width: 100%;
+	height: 50px;
+	border-radius: 25px;
+	outline: none;
+	border: none;
+	background-image: linear-gradient(to right, #f6abbee7, #ec8ca4, #f6abbee7);
+	background-size: 200%;
+	font-size: 1.2rem;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	margin: 1rem 0;
+	cursor: pointer;
+	transition: .5s;
+}
+.hero-btn:hover{
+	background-position: right;
 }
 
-.hero-btn:hover {
-    background: #ec8ca4;
-    cursor: pointer;
-}
+
+
 
 nav .fa {
     display:none; /*the icons will be hidden from the larger screen devices*/
@@ -170,30 +179,62 @@ nav .fa {
     width: 100%;
     text-align: center;
     padding: 30px 0;
+    background:repeating-radial-gradient(#d4ccd4,#fff);
     font-family: 'Poppins', sans-serif;
+    margin-top: 2%;
+    
 }
 
 .footer h4 {
-    margin-bottom: 10px;
-    margin-top: 5%;
-    font-weight: 600;
-    font-size: 25px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    /* font-weight: 600; */
+    font-size: 35px;
+    color: #C86B85;
+    font-family:"Dancing Script", serif;
 }
 
-.footer .icons {
+.footer .icons img{
     color: #C86B85;
-    margin: 0 13px;
+    margin: -8px;
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+
+.icons img:hover {
     cursor: pointer;
-    padding: 18px 0;
-    
+    filter: grayscale(0);
+}
+
+#imggit {
+    margin-left: 1%;
 }
 
 .footer .icons .fa {
     font-size: 40px;
 }
 
-.footer p {
-    margin-top: -1%;
+.footer-col {
+    flex-basis: 50%;
+}
+
+.container-f {
+    display: flex;
+    justify-content: center;
+}
+
+.row-f {
+    flex-direction: row;
+    display: flex;
+}
+
+.visit {
+    margin-left: -25%;
+}
+
+#img-f {
+    margin-left: 40%;
+    margin-top: 4%;
 }
 
 .row {

@@ -271,46 +271,64 @@ nav .fa {
     width: 100%;
     text-align: center;
     padding: 30px 0;
+    /* background: linear-gradient(#fff,#ffd6d6); */
+    /* background: radial-gradient(#d4ccd4,#fff); */
+    background:repeating-radial-gradient(#d4ccd4,#fff);
     font-family: 'Poppins', sans-serif;
+    margin-top: 2%;
+    
 }
 
 .footer h4 {
-    margin-bottom: 10px;
-    margin-top: 5%;
-    font-weight: 600;
-    font-size: 25px;
-}
-
-.footer .icons {
+    margin-bottom: 15px;
+    margin-top: 20px;
+    /* font-weight: 600; */
+    font-size: 35px;
     color: #C86B85;
-    margin: 0 13px;
-    cursor: pointer;
-    padding: 18px 0;
+    font-family:"Dancing Script", serif;
 }
 
-.footer  .a {
-    text-decoration: none;
+.footer .icons img{
+    color: #C86B85;
+    margin: -8px;
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+
+.icons img:hover {
+    cursor: pointer;
+    filter: grayscale(0);
+}
+
+#imggit {
+    margin-left: 1%;
 }
 
 .footer .icons .fa {
     font-size: 40px;
 }
 
-.footer p {
-    margin-top: -1%;
+.footer-col {
+    flex-basis: 50%;
 }
 
-.header .fa {
-    font-size: 23px;
-    margin-right:-3%;
-    margin-top: -4%;
+.container-f {
+    display: flex;
+    justify-content: center;
 }
 
-.footer img {
-    margin: auto;
-    position: absolute;
-    width: 10%;
-    
+.row-f {
+    flex-direction: row;
+    display: flex;
+}
+
+.visit {
+    margin-left: -25%;
+}
+
+#img-f {
+    margin-left: 40%;
+    margin-top: 4%;
 }
 
 
