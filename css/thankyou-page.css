@@ -262,6 +262,24 @@ nav .fa {
     .container p {
         font-size: 15px;
     }
+
+    #img-f {
+        margin-left: -35%;
+        margin-top: 5%;
+        width: 40%;
+    }
+
+    .footer .icons img{
+        filter: grayscale(0)
+    }
+    
+    .icons img:hover {
+        filter: grayscale(0);
+    }
+
+    body {
+        overflow-x: hidden;
+    }
 }
 
 /*transition effect*/
