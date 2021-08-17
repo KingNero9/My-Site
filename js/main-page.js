@@ -63,7 +63,7 @@ window.onload = function() {
 var navLinks = document.getElementById("navLinks");
 
 function showMenu() {
-    navLinks.style.right = "0";
+    navLinks.style.right = "0px";
 }
 
 function hideMenu() {

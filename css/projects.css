@@ -139,25 +139,11 @@ nav .fa {
 }
 
 .row2 {
-    margin-top: -5%;
     flex-direction: row;
     display: flex;
     justify-content: space-between;
 }
 
-.row3 {
-    margin-top: 5%;
-    flex-direction: row;
-    display: flex;
-    justify-content:space-around;
-}
-
-.row4 {
-    margin-top: -5%;
-    flex-direction: row;
-    display: flex;
-    justify-content:space-around;
-}
 
 .projects-col2 {
     flex-basis: 32%; /*how much space it can have in the page*/
@@ -165,17 +151,13 @@ nav .fa {
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
+    margin-top: -3%;
 }
 
-.projects-col4 {
-    flex-basis: 32%; /*how much space it can have in the page*/
-    border-radius: 10px;
-    margin-bottom: 30px;
-    position: relative;
-    overflow: hidden;
+.header-git {
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
-
-
 
 
 .hero-btn {
@@ -250,6 +232,12 @@ nav .fa {
 
 
 .projects-col img {
+    width: 100%;
+    height: 85%;
+    display:block;
+}
+
+.projects-col2 img {
     width: 100%;
     height: 85%;
     display:block;
