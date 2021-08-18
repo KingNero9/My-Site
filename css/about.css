@@ -633,6 +633,10 @@ a {
         margin-left: 0px;
         width: 250px;
     }
+
+    .about-col p {
+        font-size: 12px;
+    }
 }
 
 /*transition effect*/

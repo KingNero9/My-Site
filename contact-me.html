@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <style>
         .header {
             background-image: linear-gradient(rgba(224, 204, 214, 0.3), rgba(224, 204, 214, 0.3)), url("pictures/pink\ programmer.jpg");
@@ -70,15 +71,51 @@
                         </div>
                     </div>
                     <div class="contact-col">
-                        <form action="php/form-handler.php" method="POST">
-                            <input class="input-form" type="text" name="name" placeholder="Name" required>
-                            <input class="input-form" type="email" name="mail" placeholder="Email Address" required>
-                            <input class="input-form" type="text" name="subject" placeholder="Subject" required>
-                            <textarea class="input-form" rows="8" style="border:2px solid #d9d9d9"name="message" placeholder="Message" required></textarea>
-                            <a href="thankyou-page.html">
-                                <button type="submit" name="submit" class="hero-btn">Send Message</button>
-                            </a>
-                        </form>
+                        <div class="container">
+                            <div class="login-container">
+                                <form action="php/form-handler.php" method="POST">
+                                    <div class="input-div one">
+                                        <div class="i">
+                                            <i class="fas fa-user"></i>
+                                        </div>
+                                        <div>
+                                            <h5>Name</h5>
+                                            <input class="input" type="text" name="name" required>
+                                        </div>
+                                    </div>
+                                    <div class="input-div two">
+                                        <div class="i">
+                                            <i class="fas fa-at"></i>
+                                        </div>
+                                        <div>
+                                            <h5>Email</h5>
+                                            <input class="input" type="email" name="email" required>
+                                        </div>
+                                    </div>
+                                    <div class="input-div three">
+                                        <div class="i">
+                                            <i class="fas fa-question"></i>
+                                        </div>
+                                        <div>
+                                            <h5>Subject</h5>
+                                            <input class="input" type="text" name="subject" required>
+                                        </div>
+                                    </div>
+                                    <div class="input-div four">
+                                        <div class="i">
+                                            <i class="fas fa-envelope"></i>
+                                        </div>
+                                        <div>
+                                            <h5>Message</h5>
+                                            <textarea class="input" rows="8" name="message" required></textarea>
+                                        </div>
+                                    </div>
+                                    <a href="thankyou-page.html">
+                                        <button type="submit" name="submit" class="hero-btn">Send Message</button>
+                                    </a>
+                                </form>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -132,5 +169,5 @@
     </script>
     
 </body>
-<script src="js/main-page.js"></script>
+<script src="js/contact-me.js"></script>
 </html>

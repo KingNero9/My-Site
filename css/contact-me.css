@@ -166,24 +166,102 @@ nav .fa {
     color:#f59bb8;
 }
 
-.contact-col input, .contact-col textarea {
-    width: 100%;
-    padding: 15px;
-    margin-bottom: 17px;
-    outline: none;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    border: none;
+form {
+    width: 500px;
 }
-
-.contact-col input, .contact-col textarea::after {
+.login-container { 
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.input-div {
+    position: relative;
+    display: grid;
+    grid-template-columns: 7% 93%;
+    margin: 25px 0;
+    padding: 5px 0;
     border-bottom: 2px solid #d9d9d9;
-} 
-
-textarea{
-    border-style: 2px solid #d9d9d9;
-    overflow-y: scroll;
 }
+.input-div:after, .input-div:before {
+    content: '';
+    position: absolute;
+    bottom: -2px; /*pink line*/
+    width: 0;
+    height: 2px;
+    background-color: #C86B85;
+    transition: .3s;
+}
+.input-div:after {
+    right: 50%;
+}
+.input-div:before {
+    left: 50%;
+}
+.input-div.focus .i i {
+    color: #C86B85;
+}
+.input-div.focus div h5 {
+    top: -5px;
+    font-size: 15px;
+}
+.input-div.focus:after , .input-div.focus:before {
+    width: 50%;
+}
+.input-div.one {
+    margin-top: 0;
+}
+.input-div.two {
+    margin-bottom: 0;
+}
+.input-div.three {
+    margin-bottom: 0px;
+}
+.input-div.four {
+    margin-bottom: 0px;
+}
+.i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.i i {
+    color: #d9d9d9; 
+    transition: .3s; 
+}
+.input-div > div {
+    position: relative; 
+    height: 45px; /*what puts the hr line in the middle*/
+}
+.input-div > div h5 {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+    font-size:18px;
+    transition: .3s;
+}
+.input {
+    position: absolute;
+    width: 450px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border: none;
+    outline:none;
+    background: none;
+    padding: 0.5rem 0.7rem; 
+    font-size: 1.2rem; /*V*/
+    color: #555;  /*V*/
+    font-family: 'Poppins', sans-serif; /*V*/
+}
+
+textarea {
+    width: 100%;
+}
+
+
+
 /* footer */
 
 .footer {
@@ -321,7 +399,7 @@ textarea{
     }
 
     .footer .icons img{
-        filter: grayscale(0)
+        filter: grayscale(0);
     }
     
     .icons img:hover {
@@ -330,6 +408,10 @@ textarea{
 
     body {
         overflow-x: hidden;
+    }
+
+    form {
+        width: 200px;
     }
 }
 
