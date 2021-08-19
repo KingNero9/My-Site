@@ -86,22 +86,7 @@ nav img {
     font-family: "Handlee" , serif;
 }
 
-.pretty-btn { /*for future use in projects*/
-    display: inline-block;
-    text-decoration: none;
-    color: #fff;
-    border: 1px solid #fff;
-    padding: 12px 34px;
-    font-size: 13px;
-    background:transparent;
-    cursor: pointer;
-}
 
-.pretty-btn:hover {
-    border: 1px solid #C86B85;
-    background: #C86B85;
-    transition: 1s;
-}
 
 nav .fa {
     display:none; /*the icons will be hidden from the larger screen devices*/
@@ -455,7 +440,7 @@ a {
     border: 7px solid transparent;
     border-bottom-width: 0px;
     border-right-width: 0px;
-    border-top-color: #000;
+    
     opacity: 0;
     animation: showText2 0.5s 1.5s linear forwards;
 }
@@ -477,33 +462,7 @@ a {
         opacity: 1;
     }
 }
-.progress-line.html span::after{
-    content: "90%";
-}
-.progress-line.css span::after{
-    content: "70%";
-}
-.progress-line.js span::after{
-    content: "65%";
-}
-.progress-line.bootstrap span::after{
-    content: "70%";
-}
-.progress-line.mysql span::after{
-    content: "80%";
-}
-.progress-line.java span::after{
-    content: "85%";
-}
-.progress-line.python span::after{
-    content: "75%";
-}
-.progress-line.c span::after{
-    content: "75%";
-}
-.progress-line.c-sharp span::after{
-    content: "70%";
-}
+
 
 /* ------- Testimonials --------*/
 .testimonial {
