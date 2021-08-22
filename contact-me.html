@@ -73,14 +73,17 @@
                     <div class="contact-col">
                         <div class="container">
                             <div class="login-container">
-                                <form action="php/form-handler.php" method="POST">
+                                <form action="https://formsubmit.co/talishush@gmail.com" method="POST">
+                                    <input type="hidden" name="_captcha" value="false">
+                                    <input type="hidden" name="_subject" value="New email from tali-shushan.website">
+                                    <input type="hidden" name="_next" value="https://tali-shushan.website/thankyou-page.html">
                                     <div class="input-div one">
                                         <div class="i">
                                             <i class="fas fa-user"></i>
                                         </div>
                                         <div>
                                             <h5>Name</h5>
-                                            <input class="input" type="text" name="name" required>
+                                            <input class="input" type="text" id="name" required>
                                         </div>
                                     </div>
                                     <div class="input-div two">
@@ -89,7 +92,7 @@
                                         </div>
                                         <div>
                                             <h5>Email</h5>
-                                            <input class="input" type="email" name="email" required>
+                                            <input class="input" type="email" name="email" id="email" required>
                                         </div>
                                     </div>
                                     <div class="input-div three">
@@ -98,7 +101,7 @@
                                         </div>
                                         <div>
                                             <h5>Subject</h5>
-                                            <input class="input" type="text" name="subject" required>
+                                            <input class="input" type="text" name="subject" id="subject" required>
                                         </div>
                                     </div>
                                     <div class="input-div four">
@@ -107,12 +110,10 @@
                                         </div>
                                         <div>
                                             <h5>Message</h5>
-                                            <textarea class="input" rows="8" name="message" required></textarea>
+                                            <textarea style="resize: none;" class="input" rows="8" name="message" id="message" required></textarea>
                                         </div>
                                     </div>
-                                    <a href="thankyou-page.html">
-                                        <button type="submit" name="submit" class="hero-btn">Send Message</button>
-                                    </a>
+                                    <button type="submit" name="submit" id="submit" class="hero-btn">Send Message</button>
                                 </form>
                             </div>
                         </div>

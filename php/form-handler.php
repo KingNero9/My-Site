@@ -11,8 +11,8 @@ if(isset($_POST['submit'])) {
     $txt = "Message from your website: .$name.".\n\n".$message;
     
     mail($mailTo, $subject, $txt, $headers);
-    header("Location:https://tali-shushan.website/thankyou-page.html");
-    exit;
+    header("Location:../thankyou-page.html");
+    
 }
 
 ?>
